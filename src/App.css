@@ -4,8 +4,10 @@ section {
   position: relative;
   width: 100%;
   min-height: 90vh;
-  background-color: red;
+  background-image: url('./Component/images/pexels-asad-photo-maldives-169196\ \(1\).jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 section::before {
