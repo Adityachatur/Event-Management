@@ -45,7 +45,7 @@ function NoOfExp() {
 
 
     return (
-        <div className='w-full h-40  flex justify-evenly items-center'>
+        <div className='w-full lg:h-40 h-auto py-10 space-y-5  flex justify-evenly items-center flex-wrap mx-auto '>
             <div className='w-52 text-center'>
                 <h1 className='text-5xl font-bold'>{event}+ </h1>
                 <p className='font-bold text-2xl'>Events</p>
