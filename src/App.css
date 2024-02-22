@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* splash img  */
+/* Default styles */
+section {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  background-color: red;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  background: url('./Component/images/splash.jpg');
+  background-size: 100%;
+  background-position: center;
+  mix-blend-mode: screen;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Media query for tablet */
+@media (max-width: 768px) {
+  section {
+    min-height: auto;
+    /* Adjust as needed for tablet view */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Media query for mobile */
+@media (max-width: 480px) {
+  section {
+    height: auto;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  width: 100%;
+  background-color: black;
+  height: 3px;
+  margin: 8px 0;
 }
