@@ -22,13 +22,14 @@ const WhyChoose = () => {
 
     return (
         <div>
-            <div className='mt-10 lg:my-20'>
-                <div className='flex flex-col sm:flex-row  mx-auto'>
-                    <div className='w-full sm:w-5/12 flex justify-center sm:justify-end relative'>
-                        <img src={images[currentImageIndex]} className=' max-w-mobile-img sm:max-w-lg' alt='' />
+            <div className='mt-10 lg:my-20 lg:w-11/12 w-full mx-auto'>
+                <div className='flex flex-col md:flex-row mx-auto'>
+
+                    <div className='w-full md:w-5/12 flex justify-center md:justify-end relative'>
+                        <img src={images[currentImageIndex]} className='w-full lg:mx-0 mx-2 max-w-mobile-img sm:max-w-lg' alt='' />
                     </div>
 
-                    <div className='w-full sm:w-6/12 sm:p-10 bg-orange-300'>
+                    <div className='lg:w-6/12 sm:full sm:p-10 bg-orange-300'>
                         <div className='w-full pt-5 sm:pt-10 h-auto text-center'>
                             <p className='text-3xl sm:text-4xl uppercase font-bold'>Why choose EventDoors?</p>
                         </div>

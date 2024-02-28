@@ -25,13 +25,13 @@ const MainFrontPage = () => {
 
                             </div>
                         </div>
-                        <div className='lg:w-6/12 w-full max-w-screen-lg flex items-center lg:h-[90vh] justify-center'>
-                            <div className='grid lg:grid-cols-2 grid-cols gap-1'>
-                                <div className='h-48 xl:w-[350px] lg:w-[300px] md:w-[320px] w-[290px] mx-auto bg-black' style={{ backgroundImage: `url(${img1})`, backgroundSize: 'cover' }}>
+                        <div className='lg:w-6/12 w-full  max-w-screen-lg flex items-center lg:h-[90vh] justify-center'>
+                            <div className='grid lg:grid-cols-2 sm:grid-cols-2 flex-col  gap-1'>
+                                <div className='h-48 xl:w-[350px] lg:w-[300px] md:w-[320px] w-full mx-auto bg-black' style={{ backgroundImage: `url(${img1})`, backgroundSize: 'cover' }}>
                                 </div>
                                 <div className='h-48 xl:w-[350px] lg:w-[300px] md:w-[320px] w-[290px]  bg-black' style={{ backgroundImage: `url(${img2})`, backgroundSize: 'cover' }}>
                                 </div>
-                                <div className='lg:col-span-2 h-72 w-full bg-black' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat" }}>
+                                <div className='lg:col-span-2 sm:col-span-2  h-72 w-full bg-black' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat" }}>
                                 </div>
                             </div>
                         </div>
