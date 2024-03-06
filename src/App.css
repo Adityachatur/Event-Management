@@ -46,3 +46,13 @@ hr {
   height: 3px;
   margin: 8px 0;
 }
+
+
+/* Footer */
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  color: rgb(192, 153, 37);
+}
