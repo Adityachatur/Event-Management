@@ -16,7 +16,7 @@ const Footer = () => {
                     <h1 className='font-bold text-2xl mb-3'>Quick Links</h1>
                     <ul className='text-lg space-y-2'>
                         <li><Link to={'/'}>Home</Link></li>
-                        <li>About</li>
+                        <li><Link to={'/about'}>About</Link></li>
                         <li>Projects</li>
                         <li>Contact</li>
                         <li>Service</li>

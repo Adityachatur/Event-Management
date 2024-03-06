@@ -45,7 +45,8 @@ const Client_Review = () => {
     };
 
     return (
-        <div className='my-16 lg:mx-12'>
+        
+        <div className='my-16 lg:mx-12 client-review'>
             <div className=" pt-10">
                 <h1 className='text-center lg:text-6xl text-3xl font-bold m-10'>Client Review</h1>
             </div>

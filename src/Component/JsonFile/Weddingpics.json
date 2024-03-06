@@ -3,7 +3,32 @@
         {
             "id":1,
             "name":"Wedding img",
-            "Mainimg":"Jsonimg/company-logo.jpg"
+            "Mainimg":""
+        },
+        {
+            "id":2,
+            "name":"Wedding img",
+            "Mainimg":""
+        },
+        {
+            "id":3,
+            "name":"Wedding img",
+            "Mainimg":""
+        },
+        {
+            "id":4,
+            "name":"Wedding img",
+            "Mainimg":""
+        },
+        {
+            "id":5,
+            "name":"Wedding img",
+            "Mainimg":""
+        },
+        {
+            "id":6,
+            "name":"Wedding img",
+            "Mainimg":""
         }
     ]
 }

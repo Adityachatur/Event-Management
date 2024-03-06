@@ -2,6 +2,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import logo from '../images/company-logo.jpg';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [showSidebar, setShowSidebar] = useState(false);
@@ -33,8 +34,8 @@ const Navbar = () => {
                 {/* Navbar Links */}
                 <div className='hidden list-none cursor-pointer lg:flex space-x-3 items-center'>
                     <ul className='flex space-x-5 text-white text-2xl'>
-                        <li>Home</li>
-                        <li>About</li>
+                        <li><Link to={'/'}>Home</Link></li>
+                        <li><Link to={'/about'}>About</Link></li>
                         <li>Projects</li>
                         <li>Contact</li>
                     </ul>
@@ -51,8 +52,8 @@ const Navbar = () => {
                         </button>
                     </div>
                     <ul className='flex flex-col w-full space-y-2 p-5'>
-                        <li>Home</li>
-                        <li>About</li>
+                        <li><Link to={'/'}>Home</Link></li>
+                        <li><Link to={'/about'}>About</Link></li>
                         <li>Projects</li>
                         <li>Contact</li>
                     </ul>
