@@ -1,9 +1,9 @@
+// Weddingdetails.js
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import wedding from '../Project_Types/WeddingEvent'
-const Weddingdetails = () => {
+import weddingItems from './data'; // Assuming your data file is named 'data.js'
 
-    const weddingItems = wedding;
+const Weddingdetails = () => {
     const { id } = useParams();
     const selectedItem = weddingItems.find(item => item.id === parseInt(id));
 
@@ -11,6 +11,7 @@ const Weddingdetails = () => {
     const handleSubImageClick = (subImg) => {
         setMainImage(subImg);
     };
+
     return (
         <div>
             {selectedItem && (
@@ -19,21 +20,19 @@ const Weddingdetails = () => {
                     {mainImage && (
                         <div className='w-full mx-auto max-w-screen-xl rounded-lg'>
                             <img
-                                src={`${process.env.PUBLIC_URL}/${mainImage}`}
+                                src={mainImage}
                                 alt={`Wedding Image ${selectedItem && selectedItem.id}`}
                                 className='w-full h-auto max-h-[400px] border-2 rounded-lg lg:mx-auto p-1'
                             />
-
                         </div>
                     )}
-
 
                     {selectedItem.subimg1 && (
                         <div className="grid lg:w-11/12 mx-auto w-full lg:grid-cols-4 gap-2 py-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2">
                             {selectedItem.subimg1.map((sub, index) => (
                                 <div key={index} className="lg:w-[300px]  lg:mx-0 mx-1 border-2 lg:h-[270px] h-[200px] rounded-lg  overflow-hiddenn">
                                     <img
-                                        src={`${process.env.PUBLIC_URL}/${sub}`}
+                                        src={sub}
                                         alt={`Sub Image ${index}`}
                                         className='w-full h-full object-cover rounded-lg cursor-pointer'
                                         style={{ objectPosition: 'center' }}
