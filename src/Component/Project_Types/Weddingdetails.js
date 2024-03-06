@@ -1,18 +1,16 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import json from '../JsonFile/Weddingpics.json';
-
+import wedding from '../Project_Types/WeddingEvent'
 const Weddingdetails = () => {
+
+    const weddingItems = wedding;
     const { id } = useParams();
-    const weddingItems = json.Wedding;
     const selectedItem = weddingItems.find(item => item.id === parseInt(id));
 
     const [mainImage, setMainImage] = useState(selectedItem.Mainimg);
     const handleSubImageClick = (subImg) => {
         setMainImage(subImg);
     };
-
-    
     return (
         <div>
             {selectedItem && (
@@ -25,9 +23,7 @@ const Weddingdetails = () => {
                                 alt={`Wedding Image ${selectedItem && selectedItem.id}`}
                                 className='w-full h-auto max-h-[400px] border-2 rounded-lg lg:mx-auto p-1'
                             />
-                            {/* Add Logging */}
-                            {console.log("Main Image Path:", `${process.env.PUBLIC_URL}/${mainImage}`)}
-                            {console.log("Selected Item ID:", selectedItem && selectedItem.id)}
+
                         </div>
                     )}
 
