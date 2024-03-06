@@ -3,7 +3,7 @@
         {
             "id":1,
             "name":"Wedding img",
-            "Mainimg":"jsonimg/company-logo.jpg",
+            "Mainimg":"public/jsonimg/company-logo.jpg",
            "subimg1":["jsonimg/company-logo.jpg","jsonimg/download.jpg","jsonimg/company-logo.jpg","jsonimg/download.jpg"]
         },
         {
