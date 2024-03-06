@@ -3,32 +3,55 @@
         {
             "id":1,
             "name":"Wedding img",
-            "Mainimg":""
+            "Mainimg":"jsonimg/company-logo.jpg",
+           "subimg1":["jsonimg/company-logo.jpg","jsonimg/download.jpg","jsonimg/company-logo.jpg","jsonimg/download.jpg"]
         },
         {
             "id":2,
             "name":"Wedding img",
-            "Mainimg":""
+            "Mainimg":"jsonimg/download.jpg",
+            "subimg1":[
+                "aabb","ccdd","eeff","pqrst"
+               ]
         },
         {
             "id":3,
             "name":"Wedding img",
-            "Mainimg":""
+            "Mainimg":"",
+            "subimg1":[
+                "aabb","ccdd","eeff","pqrst"
+               ]
         },
         {
             "id":4,
             "name":"Wedding img",
-            "Mainimg":""
+            "Mainimg":"",
+            "subimg1":[
+                "aabb","ccdd","eeff","pqrst"
+               ]
         },
         {
             "id":5,
             "name":"Wedding img",
-            "Mainimg":""
+            "Mainimg":"",
+            "subimg1":[
+                "aabb","ccdd","eeff","pqrst"
+               ]
         },
         {
             "id":6,
             "name":"Wedding img",
-            "Mainimg":""
+            "Mainimg":"",
+            "subimg1":[
+                "aabb","ccdd","eeff","pqrst"
+               ]
         }
+    ],
+    "Engagement":[
+                {
+                    "id":1,
+                    "name":"Engagement 1",
+                    "Mainimg":""
+                }           
     ]
 }

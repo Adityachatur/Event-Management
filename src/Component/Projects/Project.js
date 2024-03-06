@@ -12,7 +12,7 @@ const Project = () => {
             <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-4 w-full mx-auto lg:w-11/12'>
 
                 <Link to={'/wedding'}><Card img={img} title="Wedding Events" /></Link>
-                <Card title="Engagement Ceremony" />
+                <Link to={'/engagement'}> <Card title="Engagement Ceremony" /></Link>
                 <Card title="Birthday Event" />
                 <Card title="Naming Ceremony" />
                 <Card title="Baby Shower" />
