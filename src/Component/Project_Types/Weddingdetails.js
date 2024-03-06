@@ -1,7 +1,7 @@
 // Weddingdetails.js
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import weddingItems from './data'; // Assuming your data file is named 'data.js'
+import {weddingItems} from './data'; // Assuming your data file is named 'data.js'
 
 const Weddingdetails = () => {
     const { id } = useParams();

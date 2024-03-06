@@ -22,7 +22,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/wedding' element={<WeddingEvent />} />
         <Route path='/wedding/:id' element={<Weddingdetails />} />
-        <Route path='engagement' element={<EngagementEvent />} />
+        <Route path='/engagement' element={<EngagementEvent />} />
       </Routes>
       <Footer />
     </>

@@ -1,5 +1,6 @@
-import img from '../images/company-logo.jpg'
-import subimg from '../images/download.jpg'
+// data.js
+import img from '../images/company-logo.jpg';
+import subimg from '../images/download.jpg';
 
 const weddingItems = [
     {
@@ -40,6 +41,12 @@ const weddingItems = [
     }
 ];
 
+const EngagementItems = [
+    {
+        "id": 1,
+        "name": "Engagement",
+        "img": ""
+    }
+];
 
-
-export default weddingItems;
+export { weddingItems, EngagementItems };

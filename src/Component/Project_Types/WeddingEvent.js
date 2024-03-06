@@ -1,7 +1,7 @@
 // WeddingEvent.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import weddingItems from './data'; // Import weddingItems from weddingData
+import { weddingItems } from './data'; // Import weddingItems from weddingData
 
 const WeddingEvent = () => {
     return (
