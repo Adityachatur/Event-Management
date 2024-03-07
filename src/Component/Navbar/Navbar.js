@@ -36,7 +36,8 @@ const Navbar = () => {
                     <ul className='flex space-x-5 text-white text-2xl'>
                         <li><Link to={'/'}>Home</Link></li>
                         <li><Link to={'/about'}>About</Link></li>
-                        <li>Projects</li>
+                        <li><Link to={'/service'}>Service</Link></li>
+                        <li><Link to={'/projects'}>Projects</Link></li>
                         <li>Contact</li>
                     </ul>
                 </div>
@@ -54,7 +55,8 @@ const Navbar = () => {
                     <ul className='flex flex-col w-full space-y-2 p-5'>
                         <li><Link to={'/'}>Home</Link></li>
                         <li><Link to={'/about'}>About</Link></li>
-                        <li>Projects</li>
+                        <li><Link to={'/service'}>Service</Link></li>
+                        <li><Link to={'/projects'}>Projects</Link></li>
                         <li>Contact</li>
                     </ul>
                 </div>

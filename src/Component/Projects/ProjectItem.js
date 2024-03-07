@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card'
 import img from '../images/download.jpg'
 import { Link } from 'react-router-dom'
-const Project = () => {
+const ProjectItem = () => {
     return (
         <div>
 
@@ -24,4 +24,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default ProjectItem

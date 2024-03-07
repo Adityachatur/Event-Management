@@ -9,6 +9,8 @@ import About from './Component/About/About';
 import ScrollToTop from './Component/ScrollToTop';
 import Weddingdetails from './Component/Project_Types/Weddingdetails';
 import EngagementEvent from './Component/Project_Types/EngagementEvent';
+import Service from './Component/Service/Service';
+import Projects from './Component/Projects/Projects';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Hero />} />
         <Route path='/about' element={<About />} />
+        <Route path='/service' element={<Service />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='/wedding' element={<WeddingEvent />} />
         <Route path='/wedding/:id' element={<Weddingdetails />} />
         <Route path='/engagement' element={<EngagementEvent />} />

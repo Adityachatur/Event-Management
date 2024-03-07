@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../images/company-logo.jpg';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -17,9 +19,9 @@ const Footer = () => {
                     <ul className='text-lg space-y-2'>
                         <li><Link to={'/'}>Home</Link></li>
                         <li><Link to={'/about'}>About</Link></li>
+                        <li><Link to={'/service'}>Service</Link></li>
                         <li>Projects</li>
                         <li>Contact</li>
-                        <li>Service</li>
                     </ul>
                 </div>
 
@@ -36,6 +38,12 @@ const Footer = () => {
                     <ul className='text-lg space-y-2 cursor-pointer'>
                         <li>+91 9552314201</li>
                         <li>Adityachatur7996@gmail.com</li>
+                        <h1 className='flex space-x-4 justify-center lg:text-3xl text-xl'>
+                            <FontAwesomeIcon icon={faInstagram} className='color' />
+                            <FontAwesomeIcon icon={faFacebook} className='color' />
+                            <FontAwesomeIcon icon={faTwitter} className='color' />
+                            <FontAwesomeIcon icon={faYoutube} className='color' />
+                        </h1>
                     </ul>
                 </div>
                 <div className='  p-4'>

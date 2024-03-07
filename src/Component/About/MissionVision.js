@@ -17,25 +17,25 @@ const MissionVision = () => {
                 </div>
 
                 <div className='w-full md:w-6/12 grid lg:grid-cols-2 md:grid-cols-2 gap-10 grid-cols-2 p-2'>
-                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[150px] bg-custom-voilet text-center space-y-2 '>
-                        <FontAwesomeIcon icon={faBullseye} className='text-7xl text-white pt-3' />
-                        <h1 className='text-2xl text-white font-bold'>Mission</h1>
-                        <p className='text-white text-base p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
+                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[220px] bg-custom-voilet text-center space-y-2 rounded-lg mission'>
+                        <FontAwesomeIcon icon={faBullseye} className='lg:text-7xl text-4xl text-white pt-3 icon' />
+                        <h1 className='lg:text-2xl text-xl text-white font-bold'>Mission</h1>
+                        <p className='text-white lg:text-base text-sm p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
                     </div>
-                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[150px] bg-custom-voilet text-center space-y-2 '>
-                        <FontAwesomeIcon icon={faEye} className='text-7xl text-white pt-3' />
-                        <h1 className='text-2xl text-white font-bold'>Vision</h1>
-                        <p className='text-white text-base p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
+                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[220px] bg-custom-voilet text-center space-y-2 rounded-lg mission'>
+                        <FontAwesomeIcon icon={faEye} className='lg:text-7xl text-4xl text-white pt-3 icon' />
+                        <h1 className='lg:text-2xl text-xl text-white font-bold'>Vision</h1>
+                        <p className='text-white lg:text-base text-sm p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
                     </div>
-                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[150px] bg-custom-voilet text-center space-y-2 '>
-                        <FontAwesomeIcon icon={faUsers} className='text-7xl text-white pt-3' />
-                        <h1 className='text-2xl text-white font-bold'>Users</h1>
-                        <p className='text-white text-base p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
+                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[220px] bg-custom-voilet text-center space-y-2 rounded-lg mission'>
+                        <FontAwesomeIcon icon={faUsers} className='lg:text-7xl text-4xl text-white pt-3 icon' />
+                        <h1 className='lg:text-2xl text-xl text-white font-bold'>Users</h1>
+                        <p className='text-white lg:text-base text-sm p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
                     </div>
-                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[150px] bg-custom-voilet text-center space-y-2 '>
-                        <FontAwesomeIcon icon={ faRankingStar} className='text-7xl text-white pt-3' />
-                        <h1 className='text-2xl text-white font-bold'>Goals</h1>
-                        <p className='text-white text-base p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
+                    <div className='w-full md:w-[200px] lg:w-[280px] xl:w-[320px] h-[220px] bg-custom-voilet text-center space-y-2 rounded-lg mission'>
+                        <FontAwesomeIcon icon={faRankingStar} className='lg:text-7xl text-4xl text-white pt-3 icon' />
+                        <h1 className='lg:text-2xl text-xl text-white font-bold'>Goals</h1>
+                        <p className='text-white lg:text-base text-sm p-1'>Create an unforgettable experience that lingers in the hearts of our guests long after they depart.</p>
                     </div>
                 </div>
             </div>

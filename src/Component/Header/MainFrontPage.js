@@ -31,7 +31,7 @@ const MainFrontPage = () => {
                                 </div>
                                 <div className='h-48 xl:w-[350px] lg:w-[300px] md:w-[320px] w-[290px]  bg-black' style={{ backgroundImage: `url(${img2})`, backgroundSize: 'cover' }}>
                                 </div>
-                                <div className='lg:col-span-2 sm:col-span-2  h-72 w-full bg-black' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat" }}>
+                                <div className='lg:col-span-2 sm:col-span-2  lg:h-[400px] h-80 w-full bg-black' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat" }}>
                                 </div>
                             </div>
                         </div>
