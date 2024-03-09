@@ -11,6 +11,7 @@ import Weddingdetails from './Component/Project_Types/Weddingdetails';
 import EngagementEvent from './Component/Project_Types/EngagementEvent';
 import Service from './Component/Service/Service';
 import Projects from './Component/Projects/Projects';
+import Contact from './Component/Contact/Contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Service />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/wedding' element={<WeddingEvent />} />
         <Route path='/wedding/:id' element={<Weddingdetails />} />
         <Route path='/engagement' element={<EngagementEvent />} />

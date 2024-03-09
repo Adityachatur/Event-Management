@@ -22,7 +22,7 @@ const QuestionAsk = () => {
 
     return (
         <div>
-            <div className='lg:w-11/12 w-full mx-auto flex flex-wrap lg:my-10 my-5 py-10 h-[400px] items-center'>
+            <div className='lg:w-11/12 w-full mx-auto flex flex-wrap lg:my-10 my-5 py-10 lg:h-[400px] h-auto items-center'>
                 <div className='lg:text-left text-center lg:w-6/12 w-full'>
                     <h1 className='text-xl font-bold text-orange-400'>-ServiceFaqs</h1>
                     <h1 className='lg:text-5xl text-2xl font-bold '>Your Questions, Our Responses</h1>

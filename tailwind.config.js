@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         custom: {
           'voilet': "#1C2448",
+          'skincolor': "#F8F3E5",
         },
       },
     },

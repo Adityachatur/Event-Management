@@ -10,12 +10,12 @@ import trainer7 from '../images/download.jpg';
 
 const Client_Review = () => {
     const cardData = [
-        { imageUrl: trainer1, name: 'Client Name 1', description: 'Client reviews and client check-ins provide the feedback you need and offer essential information to keep your relationship working well. With a client review, you s working, the current status, and upcoming plans and strategies' },
-        { imageUrl: trainer2, name: 'Client Name 2', description: 'Certified Fitness Instructor' },
-        { imageUrl: trainer4, name: 'Client Name 3', description: 'Nutrition Specialist' },
-        { imageUrl: trainer5, name: 'Client Name 4', description: 'Personal Fitness Coach' },
-        { imageUrl: trainer7, name: 'Client Name 5', description: 'Professional Bodybuilder' },
-        // Add more image URLs, names, and descriptions as needed
+        { imageUrl: trainer1, name: 'Client Name 1', description: 'Client reviews and client check-ins provide the feedback you need and offer essential information to keep your relationship working well. With a client review, you s working, the current status, and upcoming plans and strategies', stars: 4 },
+        { imageUrl: trainer2, name: 'Client Name 2', description: 'Certified Fitness Instructor', stars: 4 },
+        { imageUrl: trainer4, name: 'Client Name 3', description: 'Nutrition Specialist', stars: 3 },
+        { imageUrl: trainer5, name: 'Client Name 4', description: 'Personal Fitness Coach', stars: 4 },
+        { imageUrl: trainer7, name: 'Client Name 5', description: 'Professional Bodybuilder', stars: 5 },
+        // Add more image URLs, names, descriptions, and stars as needed
     ];
 
     const settings = {
@@ -45,9 +45,8 @@ const Client_Review = () => {
     };
 
     return (
-        
         <div className='my-16 lg:mx-12 client-review'>
-            <div className=" pt-10">
+            <div className="pt-10">
                 <h1 className='text-center lg:text-6xl text-3xl font-bold m-10'>Client Review</h1>
             </div>
 
@@ -58,6 +57,9 @@ const Client_Review = () => {
                             <img src={item.imageUrl} alt={`Team Member ${index + 1}`} className="w-2/3 mx-auto mb-4 rounded-lg" style={{ maxHeight: '140px' }} />
                             <p className="text-lg font-semibold text-black">{item.description}</p>
                             <h3 className="text-2xl font-semibold text-black text-right ">{item.name}</h3>
+                            <div className="text-yellow-400 text-3xl text-right">
+                                {"★".repeat(item.stars)}
+                            </div>
                         </div>
                     ))}
                 </Slider>
