@@ -113,7 +113,25 @@ hr {
 
 
 
-/* Our Team */
+/* Contact us*/
+.input-effect {
+  transition: border-color 0.5s ease, padding-top 0.5s ease;
+  outline: none;
+  /* Remove default outline */
+}
+
+.input-effect:focus {
+  border-color: yellow;
+  padding-top: 10px;
+
+}
+
+/* Hide placeholder on focus */
+.input-effect:focus::placeholder {
+  color: transparent;
+  transition: color 0.5s ease-in-out;
+  /* Smooth transition for placeholder */
+}
 
 
 /* Footer */
