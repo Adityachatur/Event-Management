@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from '../images/company-logo.jpg'
+import img from '../images/image-from-rawpixel-id-12786572-png.png'
 const OurTeam = () => {
     return (
         <div>
-            <div className=" w-full">
+            <div className=" w-full team-lead">
                 <div className='text-center'>
                     <h1 className='text-xl md:text-2xl lg:text-xl font-semibold pt-5 text-orange-400'> - Our Team</h1>
                     <h1 className='text-2xl md:text-3xl lg:text-5xl lg:p-4 p-2 font-bold'>Meet Me My Team</h1>

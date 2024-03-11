@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 /* splash img  */
-/* Default styles */
 section {
   position: relative;
   width: 100%;
@@ -55,10 +61,6 @@ hr {
   }
 }
 
-
-
-
-
 /* About End */
 
 
@@ -93,6 +95,25 @@ hr {
 }
 
 /* Service End */
+
+
+
+/* Client */
+
+
+.company-logo img {
+  height: auto;
+  width: 100%;
+  max-height: 100px;
+  max-width: 200px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+
+
+
+/* Our Team */
 
 
 /* Footer */
