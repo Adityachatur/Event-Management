@@ -4,7 +4,7 @@ import React from "react";
 
 const WhatsAppButton = () => {
   const whatsappNumber = "9552314201";
-  const whatsappMessage = "Please help me to join gym";
+  const whatsappMessage = "Please help me with some question";
 
   const openWhatsApp = () => {
     window.open(

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import img1 from '../images/download (1).jpg'
 import img2 from '../images/download (2).jpg'
 import img3 from '../images/download (3).jpg'
+import { Link } from 'react-router-dom';
 const MainFrontPage = () => {
     return (
         <div>
@@ -16,8 +17,8 @@ const MainFrontPage = () => {
                                 <p className='text-xl font-semibold'>In a world where first impressions matter, the success of your event hinges on the expertise of your event planning partner. With our seasoned professionals, creative brilliance, and commitment to flawless execution, we stand ready to transform your event into a cherished memory. Don't just host an event—elevate it with us. Get in touch today, and let's embark on a journey to create something extraordinary together.</p>
                             </div>
                             <div className='flex lg:justify-evenly justify-between items-center w-full'>
-                                <button className='h-16 w-36 my-5 rounded-lg bg-black text-white'>Contact Us</button>
-
+                                <Link to={'/contact'}> <button className='h-16 w-36 my-5 text-xl font-bold rounded-lg bg-black text-white transition duration-500  hover:bg-custom-Metallic-gold '>Contact Us</button>
+                                </Link>
                                 <div className='flex items-center ml-12 lg:space-x-2'>
                                     <FontAwesomeIcon icon={faDownload} className=' bg-red-500 p-5 rounded-full' />
                                     <h1 className='lg:text-3xl text-xl  font-bold'> Request Brochure</h1>

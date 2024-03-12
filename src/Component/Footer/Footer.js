@@ -1,10 +1,14 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import logo from '../images/company-logo.jpg';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
+    let location = useLocation();
+    useEffect(() => {
+    }, [location]);
+
     return (
         <div>
             <div className='text-white bg-black  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2 w-full mx-auto lg:w-full'>
@@ -17,11 +21,11 @@ const Footer = () => {
                 <div className='text-center  p-9'>
                     <h1 className='font-bold text-2xl mb-3'>Quick Links</h1>
                     <ul className='text-lg space-y-2'>
-                        <li><Link to={'/'}>Home</Link></li>
-                        <li><Link to={'/about'}>About</Link></li>
-                        <li><Link to={'/service'}>Service</Link></li>
-                        <li><Link to={'/projects'}>Projects</Link></li>
-                        <li><Link to={'/contact'}> Contact</Link></li>
+                        <li><Link to={'/'} className={`${location.pathname === "/" ? "text-custom-Metallic-gold" : ""}`}>Home</Link></li>
+                        <li><Link to={'/about'} className={`${location.pathname === "/about" ? "text-custom-Metallic-gold" : ""}`}>About</Link></li>
+                        <li><Link to={'/service'} className={`${location.pathname === "/service" ? "text-custom-Metallic-gold" : ""}`}>Service</Link></li>
+                        <li><Link to={'/projects'} className={`${location.pathname === "/projects" ? "text-custom-Metallic-gold" : ""}`}>Projects</Link></li>
+                        <li><Link to={'/contact'} className={`${location.pathname === "/contact" ? "text-custom-Metallic-gold" : ""}`}> Contact</Link></li>
                     </ul>
                 </div>
 
