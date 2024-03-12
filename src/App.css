@@ -98,7 +98,7 @@ hr {
 
 
 
-/* Client */
+/*Company  Client start */
 
 
 .company-logo img {
@@ -110,6 +110,20 @@ hr {
   mix-blend-mode: multiply;
 }
 
+/* Company Clinet end */
+
+
+
+/* Gallery start */
+.gallery-img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(0.9);
+}
+
+/* Gallery end */
 
 
 
@@ -134,15 +148,33 @@ hr {
 }
 
 
+/* Whats app Button start*/
+.animated-button {
+  animation: bounce 0.5s infinite alternate;
+  /* Apply the bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Whats app button end */
+
 /* Footer */
 li {
   cursor: pointer;
 }
 
 li:hover {
-  color: rgb(192, 153, 37);
+  color: '#FFD700';
 }
 
 .color:hover {
-  color: rgb(192, 153, 37);
+  color: '#FFD700';
 }

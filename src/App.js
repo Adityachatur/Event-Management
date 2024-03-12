@@ -12,6 +12,7 @@ import EngagementEvent from './Component/Project_Types/EngagementEvent';
 import Service from './Component/Service/Service';
 import Projects from './Component/Projects/Projects';
 import Contact from './Component/Contact/Contact';
+import WhatsAppButton from './Component/WhatsAppButton';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/wedding/:id' element={<Weddingdetails />} />
         <Route path='/engagement' element={<EngagementEvent />} />
       </Routes>
+      <WhatsAppButton/>
       <Footer />
     </>
 

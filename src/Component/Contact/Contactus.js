@@ -46,11 +46,11 @@ const Contactus = () => {
                         <br /><br />
                         <div className='text-white'>
                             <label htmlFor="" className='lg:text-2xl text-xl font-bold'>Enter Comment</label> <br />
-                            <textarea type="text" placeholder="Comment" className='w-full md:w-10/12 h-10 bg-gray-800 border-b-2 text-white lg:text-base  text-md placeholder-white focus:border-black input-effect' />
+                            <textarea type="text" rows="40" cols="90" placeholder="Comment" className='w-full md:w-10/12 h-10 bg-gray-800 border-b-2 text-white lg:text-base  text-md placeholder-white focus:border-black input-effect'></textarea>
                         </div>
                         <br />
 
-                        <button class="h-14 border-2 rounded-lg text-white lg:text-2xl text-xl font-bold w-40 hover:text-black hover:bg-yellow-400 transition-transform duration-300 transform-gpu hover:scale-105">Submit</button>
+                        <button class="h-14 border-2 rounded-lg text-white lg:text-2xl text-xl font-bold w-40 hover:text-black hover:bg-custom-Metallic-gold transition-transform duration-300 transform-gpu hover:scale-105">Submit</button>
                     </div>
                 </div>
 
@@ -58,30 +58,30 @@ const Contactus = () => {
                 <div className='w-full md:w-1/2 gird grid-cols-1 '>
 
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
-                        <FontAwesomeIcon icon={faPhone} className='text-black lg:text-4xl text-2xl bg-yellow-400 p-3 rounded-full' />
+                        <FontAwesomeIcon icon={faPhone} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-yellow-400 lg:text-xl text-lg font-semibold'>Mob. No</p>
+                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold'>Mob. No</p>
                             <p className='lg:text-2xl text-md font-bold cursor-pointer text-white'>+91 9552314201</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
-                        <FontAwesomeIcon icon={faEnvelope} className='text-black lg:text-4xl text-2xl bg-yellow-400 p-3 rounded-full' />
+                        <FontAwesomeIcon icon={faEnvelope} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-yellow-400 lg:text-xl text-lg font-semibold'>For Enquiries</p>
+                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold'>For Enquiries</p>
                             <p className='lg:text-2xl text-md font-bold cursor-pointer text-white'>adityachatur4@gmail.com</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
-                        <FontAwesomeIcon icon={faBriefcase} className='text-black lg:text-4xl text-2xl bg-yellow-400 p-3 rounded-full' />
+                        <FontAwesomeIcon icon={faBriefcase} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-yellow-400 lg:text-xl text-lg font-semibold'>Careers </p>
+                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold'>Careers </p>
                             <p className='lg:text-2xl text-md font-bold cursor-pointer text-white'>adityachatur4@gmail.com</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
-                        <FontAwesomeIcon icon={faHome} className='text-black lg:text-4xl text-2xl bg-yellow-400 p-3 rounded-full' />
+                        <FontAwesomeIcon icon={faHome} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-yellow-400 lg:text-xl text-lg font-semibold'>Address </p>
+                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold'>Address </p>
                             <p className='lg:text-2xl text-md font-bold cursor-pointer text-white'>Medankarwadi chakan, Tal.Khed <br /> dist.Pune  pin-410501</p>
                         </div>
                     </div>
