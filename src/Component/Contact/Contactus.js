@@ -232,7 +232,7 @@ const Contactus = () => {
                             </button>
 
                             {showalert && (
-                                <div className="bg-green-500 text-white text-center py-2">
+                                <div className="bg-green-500 text-white text-center py-2 font-madimi-one-regular text-xl">
                                     Form submitted successfully!
                                 </div>
                             )}
