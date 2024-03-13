@@ -1,10 +1,16 @@
 require("dotenv").config();
 const express = require('express')
+const cors = require("cors");
 const app = express()
 const router = require('./router/Register')
 const connectdb = require('./Utility/DB');
 
-
+const corsOption = {
+    origin: "http://localhost:3000",
+    method: "POST , GET , PUT , DELETE",
+    credentials: true,
+};
+app.use(cors(corsOption));
 app.use(express.json());
 app.use('/api/register', router);
 //Http request type 1
