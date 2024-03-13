@@ -6,7 +6,7 @@ const router = require('./router/Register')
 const connectdb = require('./Utility/DB');
 
 const corsOption = {
-    origin: "https://event-management-allevent.vercel.app",
+    origin: "http://localhost:3000",
     method: "POST , GET , PUT , DELETE",
     credentials: true,
 };
