@@ -14,9 +14,9 @@ app.use(cors(corsOption));
 app.use(express.json());
 app.use('/api/register', router);
 //Http request type 1
-// app.get('/', function (req, res) {
-//     res.status(200).send('Hello World')
-// })
+  app.get('/', function (req, res) {
+    res.status(200).send('Hello World')
+ })
 
 // app.get('/register', function (req, res) {
 //     res.status(200).send("Register page")
