@@ -9,7 +9,7 @@ const MainFrontPage = () => {
     return (
         <div>
             <section>
-                <div className='z-20 relative'>
+                <div className='z-20 front'>
                     <div className='flex lg:flex-row flex-col items-center justify-center'>
                         <div className='lg:w-5/12 w-full max-w-screen-lg flex flex-col items-center lg:h-[90vh] justify-center lg:py-2 p-10'>
                             <div className='text-left'>
@@ -17,11 +17,11 @@ const MainFrontPage = () => {
                                 <p className='text-xl font-semibold'>In a world where first impressions matter, the success of your event hinges on the expertise of your event planning partner. With our seasoned professionals, creative brilliance, and commitment to flawless execution, we stand ready to transform your event into a cherished memory. Don't just host an event—elevate it with us. Get in touch today, and let's embark on a journey to create something extraordinary together.</p>
                             </div>
                             <div className='flex lg:justify-evenly justify-between items-center w-full'>
-                                <Link to={'/contact'}> <button className='h-16 w-36 my-5 text-xl font-bold rounded-lg bg-black text-white transition duration-500  hover:bg-custom-Metallic-gold '>Contact Us</button>
+                                <Link to={'/contact'}> <button className='h-16 w-36 my-5 text-xl font-bold rounded-lg bg-black text-white transition duration-500  hover:bg-custom-Metallic-gold font-madimi-one-regular'>Contact Us</button>
                                 </Link>
                                 <div className='flex items-center ml-12 lg:space-x-2'>
                                     <FontAwesomeIcon icon={faDownload} className=' bg-red-500 p-5 rounded-full' />
-                                    <h1 className='lg:text-3xl text-xl  font-bold'> Request Brochure</h1>
+                                    <h1 className='lg:text-3xl text-xl font-madimi-one-regular font-semibold'> Request Brochure</h1>
                                 </div>
 
                             </div>

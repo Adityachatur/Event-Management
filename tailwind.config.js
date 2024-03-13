@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -10,8 +11,11 @@ module.exports = {
           'Metallic-gold': '#FFD700',
         },
       },
+      fontFamily: {
+        'madimi-one-regular': ['Madimi One', 'sans'],
+        'Whisper': ['Whisper', 'sans'] // Replace 'CustomFont' with your actual font name
+      },
     },
   },
   plugins: [],
 }
-

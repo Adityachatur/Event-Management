@@ -48,7 +48,7 @@ function NoOfExp() {
         <div className='w-full lg:h-40 h-auto py-10 space-y-5  flex justify-evenly items-center flex-wrap mx-auto '>
             <div className='w-48 text-center'>
                 <h1 className='text-5xl font-bold'>{event}+ </h1>
-                <p className='font-bold text-2xl'>Events</p>
+                <p className='font-bold text-2xl font-madimi-one-regular'>Events</p>
             </div>
             <div className='w-48 text-center'>
                 <h1 className='text-5xl font-bold'>{rating} <FontAwesomeIcon icon={faStar} className='text-3xl text-orange-400 py-1 pr-2' />  </h1>
