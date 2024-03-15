@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../images/company-logo.jpg'
-import img from '../images/image-from-rawpixel-id-12786572-png.png'
 const OurTeam = () => {
     return (
         <div>

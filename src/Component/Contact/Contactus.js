@@ -3,13 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import contact from '../images/company-logo.jpg';
-
 const Contactus = () => {
-
-    // Success alert 
-    const [showalert, setshowalert] = useState(false);
-
-
     const [form, setForm] = useState({
         name: '',
         email: '',
@@ -28,37 +22,7 @@ const Contactus = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
-            formsubmit(); // Validate form fields
-            const response = await fetch(`http://localhost:3001/api/register`, {
-                method: "POST",
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(form),
-            });
-
-            if (response.ok) {
-                setForm({
-                    name: '',
-                    email: '',
-                    phone: '',
-                    event: '',
-                    comment: '',
-                });
-                console.log("Form submitted successfully");
-                setshowalert(true);
-                setTimeout(() => {
-                    setshowalert(false);
-                }, 3000);
-
-            } else {
-                throw new Error('Failed to submit form');
-            }
-        } catch (error) {
-            console.log("Contact form error", error);
-        }
-        console.log(form);
+        formsubmit();
     };
 
     const [nameerror, setnameerror] = useState('');
@@ -118,6 +82,14 @@ const Contactus = () => {
             } else {
                 setcommenterror('');
             }
+
+            const whatsappMessage = `Name: ${form.name}%0AEmail: ${form.email}%0APhone: ${form.phone}%0AEvent: ${form.event}%0AComment: ${form.comment}`;
+            const whatsappNumber = '9552314201';
+
+            window.open(
+                `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`,
+                "_blank"
+            );
         } catch (error) {
             console.log("Validation error", error);
         }
@@ -230,12 +202,6 @@ const Contactus = () => {
                             >
                                 Submit
                             </button>
-
-                            {showalert && (
-                                <div className="bg-green-500 text-white text-center py-2 font-madimi-one-regular text-xl">
-                                    Form submitted successfully!
-                                </div>
-                            )}
                         </form>
                     </div>
                 </div>

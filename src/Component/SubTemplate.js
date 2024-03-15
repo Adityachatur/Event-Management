@@ -1,20 +1,27 @@
-import React from 'react'
+import React from 'react';
 
 const SubTemplate = (props) => {
-    // const backgroundStyle = {
-    //     backgroundImage: `url(${props.img})`,
-    // };
+    const videoStyle = {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+        zIndex: '-1',
+    };
+
     return (
-        <div>
-            <div className="relative flex items-center justify-center bg-cover bg-red-100 bg-center h-96">
-                <div className="absolute inset-0 bg-black opacity-10"></div>
-                <div className="text-center text-white relative z-10 ">
-                    <h1 className="lg:text-5xl md:text-2xl text-xl uppercase font-bold mb-4 font-Oswald">
+        <div className="relative">
+            <video src={props.video} autoPlay loop muted style={videoStyle}></video>
+            <div className="flex items-center justify-center bg-cover  bg-center h-96 relative z-10">
+                <div className="absolute inset-0 bg-black opacity-40 "></div>
+                <div className="text-center text-white z-30">
+                    <h1 className="lg:text-5xl md:text-2xl text-xl  uppercase font-bold mb-4 font-Oswald">
                         {props.title}
                     </h1>
                 </div>
             </div>
         </div>
-    )
-}
-export default SubTemplate
+    );
+};
+
+export default SubTemplate;

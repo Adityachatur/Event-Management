@@ -12,10 +12,13 @@ module.exports = {
         },
       },
       fontFamily: {
-        'madimi-one-regular': ['Madimi One', 'sans'],
-        'Whisper': ['Whisper', 'sans'] // Replace 'CustomFont' with your actual font name
+        'Anek Gurmukhi': ['Anek Gurmukhi', 'sans'],
+        'Montserrat': ['Montserrat', 'sans'],
+        'Onest': ['Onest', 'sans'],
+        'Orbitron': ['Orbitron', 'sans'],
       },
     },
+    
   },
   plugins: [],
 }

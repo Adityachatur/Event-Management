@@ -1,5 +1,5 @@
-import React,{useEffect} from 'react';
-import logo from '../images/company-logo.jpg';
+import React, { useEffect } from 'react';
+import logo from '../images/Vighnaharta Event  New Logo 1.png';
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className=' text-center p-9'>
                     <h1 className='font-bold text-2xl mb-3'>Visit Us</h1>
                     <ul className='text-lg space-y-2'>
-                        <li>Balajinagar Medankarwadi,</li>
+                        <li>Banglawasti Medankarwadi,</li>
                         <li>chakan,</li>
                         <li>Pune Pin-410501</li>
                     </ul>
