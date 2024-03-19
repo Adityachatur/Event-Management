@@ -43,7 +43,7 @@ const Footer = () => {
                         <li>+91 9552314201</li>
                         <li>Adityachatur7996@gmail.com</li>
                         <h1 className='flex space-x-4 justify-center lg:text-3xl text-xl'>
-                            <FontAwesomeIcon icon={faInstagram} className='color' />
+                            <Link to={"https://www.instagram.com/vighnaharta_events_?igsh=cm0wZndxdG5sNnF2"}><FontAwesomeIcon icon={faInstagram} className='color hover:text-yellow-400  transform duration-300' /></Link>
                             <FontAwesomeIcon icon={faFacebook} className='color' />
                             <FontAwesomeIcon icon={faTwitter} className='color' />
                             <FontAwesomeIcon icon={faYoutube} className='color' />

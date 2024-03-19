@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import img1 from '../images/download (1).jpg';
+import img1 from '../images/Gallery3.jpg';
 import img2 from '../images/download (2).jpg';
 import img3 from '../images/download (3).jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

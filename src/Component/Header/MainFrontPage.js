@@ -2,12 +2,14 @@ import React from 'react'
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import img1 from '../images/Vighnaharta Event  New Logo 1.png';
+import video from '../images/ContactVideo.mp4'
 import { Link } from 'react-router-dom';
 const MainFrontPage = () => {
     return (
         <div>
             <section>
                 <div className='z-20 front'>
+                    
                     <div className='flex lg:flex-row flex-col items-center justify-center'>
                         <div className='lg:w-5/12 w-full max-w-screen-lg flex flex-col items-center lg:h-[90vh] justify-center lg:py-2 p-10'>
                             <div className='text-left'>

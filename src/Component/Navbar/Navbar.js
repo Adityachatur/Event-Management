@@ -42,9 +42,9 @@ const Navbar = () => {
                     <ul className='flex space-x-5 text-white text-2xl font-Anek Gurmukhi'>
                         <li><Link to={'/'} className={`${location.pathname === "/" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}>Home</Link></li>
                         <li><Link to={'/about'} className={`${location.pathname === "/about" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}>About</Link></li>
-                        <li><Link to={'/service'} className={`${location.pathname === "/service" ? "text-custom-Metallic-gold" : ""}animated-text hover:text-yellow-300`}>Service</Link></li>
-                        <li><Link to={'/projects'} className={`${location.pathname === "/projects" ? "text-custom-Metallic-gold" : ""}animated-text hover:text-yellow-300`}>Projects</Link></li>
-                        <li><Link to={'/contact'} className={`${location.pathname === "/contact" ? "text-custom-Metallic-gold" : ""}animated-text hover:text-yellow-300`}> Contact</Link></li>
+                        <li><Link to={'/service'} className={`${location.pathname === "/service" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}>Service</Link></li>
+                        <li><Link to={'/projects'} className={`${location.pathname === "/projects" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}>Projects</Link></li>
+                        <li><Link to={'/contact'} className={`${location.pathname === "/contact" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}> Contact</Link></li>
                     </ul>
                 </div>
             </nav >
