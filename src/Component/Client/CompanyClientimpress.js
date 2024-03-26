@@ -1,9 +1,9 @@
 import React from 'react';
-import img1 from '../images/download.png';
-import img2 from '../images/images (1).jpeg';
-import img3 from '../images/images (1).png';
-import img4 from '../images/images (2).jpeg';
-import img5 from '../images/images.png';
+
+import img2 from '../images/sigmalogo.png';
+import img3 from '../images/hyundailogo.png';
+import img4 from '../images/ultralogo.png';
+
 
 const CompanyClientimpress = () => {
   return (
@@ -16,11 +16,9 @@ const CompanyClientimpress = () => {
         <div className=" p-4 h-32">
           <marquee behavior="scroll" scrollamount="10" direction="left">
             <div className='flex space-x-5 text-2xl h-44  company-logo'>
-              <img src={img1} alt="" />
               <img src={img2} alt="" />
-              <img src={img3} alt="" />
+              <img src={img3} alt="" className='mix-blend-multiply' />
               <img src={img4} alt="" />
-              <img src={img5} alt="" className='mix-blend-screen' />
             </div>
           </marquee>
         </div>

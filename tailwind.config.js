@@ -16,7 +16,10 @@ module.exports = {
         'Montserrat': ['Montserrat', 'sans'],
         'Onest': ['Onest', 'sans'],
         'Orbitron': ['Orbitron', 'sans'],
-      },
+        'Roboto Serif': ['Roboto Serif', 'serif'],
+        'Roboto Slab': ['Roboto Slab', 'serif'],
+        'Roboto': ['Roboto', 'sans'],
+    },
     },
     
   },
