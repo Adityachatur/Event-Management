@@ -4,9 +4,9 @@ import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 
 const QuestionAsk = () => {
     const initialData = [
-        { question: 'Choose Between rates or instant payment', answer: 'Motivate others and change the way we feel about ourselves. This is why I find them so interesting and crucial on our paths to success mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci consectetur vel posuere posuere, rutrum eu ipsum. Cost is important.' },
-        { question: 'Come to see a live preview', answer: 'Inspirational quotes have an amazing ability to motivate others and change the way we feel about ourselves. This is why I find them so interesting and crucial on our paths to success.' },
-        { question: 'Choose the correct service', answer: 'The leap into electronic typesetting, remaining essentially unchanged. It was popularised sheets containing Lorem Ipsum passagese.' }
+        { question: 'Can you explain what event production entails, and what services do you offer in this area?', answer: 'Event production involves planning, coordinating, and executing events like parties, concerts, or conferences. We offer services such as planning, vendor coordination, on-site management, and post-event evaluation to make your event successful and stress-free.' },
+        { question: 'How will the success of the event be measured?', answer: 'The success of the event can be measured through various metrics such as attendance numbers, guest satisfaction surveys, social media engagement, feedback from stakeholders, achieving set goals and objectives, and return on investment.' },
+        { question: 'What level of involvement would you like from our team?', answer: 'The level of involvement from our team can range from full-service planning to day-of coordination, depending on your preferences and needs.' }
     ];
 
     const [faqData, setFaqData] = useState(initialData.map(item => ({ ...item, isOpen: false })));

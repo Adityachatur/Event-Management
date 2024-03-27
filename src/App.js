@@ -31,7 +31,7 @@ function App() {
         <Route path='/wedding/:id' element={<Weddingdetails />} />
         <Route path='/engagement' element={<EngagementEvent />} />
       </Routes>
-      <WhatsAppButton/>
+      <WhatsAppButton />
       <Footer />
     </>
 

@@ -18,8 +18,8 @@ const OurValue = () => {
 
                     <div className='flex lg:space-x-16 space-x-5 lg:text-2xl text-lg p-4 font-bold'>
                         <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Honesty</h1></div>
-                        <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Honesty</h1></div>
-                        <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Honesty</h1></div>
+                        <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Proficiency</h1></div>
+                        <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Expertise</h1></div>
                     </div>
 
                     <Link to={'/projects'}> <button className='text-center border-2 px-2 py-4 lg:text-2xl flex  text-lg font-bold  m-4  bg-yellow-600 rounded-md text-white'>View Projects</button></Link>
