@@ -43,6 +43,16 @@ nav h1 {
   width: 100%;
 }
 
+.sidebar {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 20;
+}
+
+
 /* Navbar end */
 /* Main Front side Bg chnage start */
 .front {
