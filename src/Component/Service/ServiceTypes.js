@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/Vighnaharta Event  New Logo 1.png';
+import logo from '../images/Vighnaharta Event  New Logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearchengin } from '@fortawesome/free-brands-svg-icons'
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
@@ -30,7 +30,7 @@ const ServiceTypes = () => {
                     </div>
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl'>
                         <h1 className='lg:text-2xl text-base font-bold  lg:px-3'>Event Management</h1>
-                        <Groups2Icon className='text-2xl bg-custom-voilet text-white p-1 rounded-full' />
+                        <Groups2Icon className='bg-custom-voilet text-white p-1 rounded-full' />
                     </div>
                     <div></div>
                     <div></div>

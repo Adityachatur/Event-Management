@@ -19,8 +19,8 @@ const Footer = () => {
                 </div>
 
                 <div className='text-center  p-9'>
-                    <h1 className='font-bold text-2xl mb-3'>Quick Links</h1>
-                    <ul className='text-lg space-y-2'>
+                    <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Quick Links</h1>
+                    <ul className='text-lg space-y-2 font-Onest'>
                         <li><Link to={'/'} className={`${location.pathname === "/" ? "text-custom-Metallic-gold" : ""}`}>Home</Link></li>
                         <li><Link to={'/about'} className={`${location.pathname === "/about" ? "text-custom-Metallic-gold" : ""}`}>About</Link></li>
                         <li><Link to={'/service'} className={`${location.pathname === "/service" ? "text-custom-Metallic-gold" : ""}`}>Service</Link></li>
@@ -30,16 +30,16 @@ const Footer = () => {
                 </div>
 
                 <div className=' text-center p-9'>
-                    <h1 className='font-bold text-2xl mb-3'>Visit Us</h1>
-                    <ul className='text-lg space-y-2'>
+                    <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Visit Us</h1>
+                    <ul className='text-lg space-y-2 font-Onest'>
                         <li>Banglawasti Medankarwadi,</li>
                         <li>chakan,</li>
                         <li>Pune Pin-410501</li>
                     </ul>
                 </div>
                 <div className=' text-center  p-9'>
-                    <h1 className='font-bold text-2xl mb-3'>Contact Us</h1>
-                    <ul className='text-lg space-y-2 cursor-pointer'>
+                    <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Contact Us</h1>
+                    <ul className='text-lg space-y-2 cursor-pointer font-Onest'>
                         <li>+91 9552314201</li>
                         <li>Adityachatur7996@gmail.com</li>
                         <h1 className='flex space-x-4 justify-center lg:text-3xl text-xl'>

@@ -12,17 +12,17 @@ const MainFrontPage = () => {
 
                     <div className='flex lg:flex-row flex-col items-center justify-center'>
                         <div className='lg:w-5/12 w-full max-w-screen-lg flex flex-col items-center lg:h-[90vh] justify-center lg:py-2 p-10'>
-                            <div className='text-left p-2'>
-                                <p className='lg:text-5xl text-3xl font-bold font-Orbitron text-white'>Innovative events that exceed expectations, every time <hr /></p>
-                                <p className='text-xl font-semibold font-Onest text-custom-Metallic-gold'>In a world where first impressions matter, the success of your event hinges on the expertise of your event planning partner. With our seasoned professionals, creative brilliance, and commitment to flawless execution, we stand ready to transform your event into a cherished memory. Don't just host an event—elevate it with us. Get in touch today, and let's embark on a journey to create something extraordinary together.</p>
+                            <div className='lg:text-left text-center lg:p-2 p-0'>
+                                <p className='lg:text-5xl text-2xl font-bold font-Orbitron text-white'>Innovative events that exceed expectations, every time <hr /></p>
+                                <p className='text-xl text-justify font-semibold font-Onest text-custom-Metallic-gold'>In a world where first impressions matter, the success of your event hinges on the expertise of your event planning partner. With our seasoned professionals, creative brilliance, and commitment to flawless execution, we stand ready to transform your event into a cherished memory. Don't just host an event—elevate it with us. Get in touch today, and let's embark on a journey to create something extraordinary together.</p>
                             </div>
                             <div className='flex lg:justify-evenly justify-between items-center w-full px-3'>
                                 <Link to={'/contact'}>
-                                    <button className='h-16 w-36 my-5 text-xl font-bold rounded-lg bg-black text-white transition duration-500 hover:bg-custom-Metallic-gold font-madimi-one-regular font-Orbitron'>Contact Us</button>
+                                    <button className='h-16 w-36 lg:my-5 my-1 lg:text-xl text-lg font-bold rounded-lg bg-black text-white transition duration-500 hover:bg-custom-Metallic-gold font-madimi-one-regular font-Orbitron'>Contact Us</button>
                                 </Link>
-                                <div className='flex items-center ml-12 lg:space-x-2'>
-                                    <FontAwesomeIcon icon={faDownload} className=' bg-red-500 p-5 rounded-full' />
-                                    <h1 className='lg:text-3xl text-xl font-Orbitron text-custom-Metallic-gold font-semibold'> Request Brochure</h1>
+                                <div className='flex items-center ml-3 lg:space-x-1'>
+                                    <FontAwesomeIcon icon={faDownload} className=' bg-red-500 lg:p-5 p-3  rounded-full' />
+                                    <h1 className='lg:text-3xl text-lg font-Orbitron text-custom-Metallic-gold font-semibold'> Request Brochure</h1>
                                 </div>
 
                             </div>

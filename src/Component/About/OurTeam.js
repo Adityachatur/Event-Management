@@ -7,7 +7,7 @@ const OurTeam = () => {
             <div className=" w-full lg:h-[800px] h-auto team-lead">
                 <div className='text-center'>
                     <div className='text-center flex justify-center w-full '>
-                        <img src={owenerimg} alt="" className='lg:w-[400px] w-full rounded-xl h-[450px] m-3 p-2 ' />
+                        <img src={owenerimg} alt="" className='lg:w-[350px] w-full rounded-xl h-[450px] m-3 p-2 ' />
                     </div>
                     <h1 className='lg:text-3xl text-xl p-2 font-bold font-Montserrat '>Saurabh Zende</h1>
                     <h1 className='text-xl font-semibold font-Roboto Slab'>Owner of Company </h1>
