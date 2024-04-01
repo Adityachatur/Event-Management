@@ -23,7 +23,7 @@ const WhyChoose = () => {
                 <div className='flex flex-col md:flex-row mx-auto'>
 
                     <div className='w-full md:w-5/12 flex justify-center md:justify-end relative'>
-                        <img src={images[currentImageIndex]} className='w-full lg:h-auto h-96 lg:mx-0 border-2 border-orange-300 max-w-mobile-img sm:max-w-lg' alt='' />
+                        <img src={images[currentImageIndex]} className='w-full lg:h-auto h-[400px] fonrob lg:mx-0 border-2 border-orange-300 max-w-mobile-img sm:max-w-lg' alt='' />
                     </div>
 
                     <div className='lg:w-6/12 sm:full sm:p-10 bg-orange-300'>

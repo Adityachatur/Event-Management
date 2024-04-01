@@ -14,7 +14,9 @@ const MainFrontPage = () => {
                         <div className='lg:w-5/12 w-full max-w-screen-lg flex flex-col items-center lg:h-[90vh] justify-center lg:py-2 p-10'>
                             <div className='lg:text-left text-center lg:p-2 p-0'>
                                 <p className='lg:text-5xl text-2xl font-bold font-Orbitron text-white'>Innovative events that exceed expectations, every time <hr /></p>
-                                <p className='text-xl text-justify font-semibold font-Onest text-custom-Metallic-gold'>In a world where first impressions matter, the success of your event hinges on the expertise of your event planning partner. With our seasoned professionals, creative brilliance, and commitment to flawless execution, we stand ready to transform your event into a cherished memory. Don't just host an event—elevate it with us. Get in touch today, and let's embark on a journey to create something extraordinary together.</p>
+                                {/* Hide this paragraph in mobile view */}
+                                <p className='hidden lg:block text-xl text-justify font-semibold font-Onest text-custom-Metallic-gold'>In a world where first impressions matter, the success of your event hinges on the expertise of your event planning partner. With our seasoned professionals, creative brilliance, and commitment to flawless execution, we stand ready to transform your event into a cherished memory. Don't just host an event—elevate it with us. Get in touch today, and let's embark on a journey to create something extraordinary together.</p>
+                                <p className='lg:hidden text-xl text-justify font-semibold font-Onest text-custom-Metallic-gold'>Our experienced team knows how to make events awesome. We're creative and dedicated to making your event the best ever. Reach out to us now and let's create something extraordinary together!</p>
                             </div>
                             <div className='flex lg:justify-evenly justify-between items-center w-full px-3'>
                                 <Link to={'/contact'}>

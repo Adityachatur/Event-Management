@@ -30,8 +30,8 @@ const QuestionAsk = () => {
                 <div className="w-full lg:w-6/12 mx-auto  my-5 md:mb-0">
                     {faqData.map((item, index) => (
                         <div key={index} className="faq-item">
-                            <div className="h-16 text-xl lg:font-bold font-semibold  bg-custom-voilet my-1 text-white flex justify-between items-center px-4 mx-4">
-                                <h1 className='font-Onest'>{item.question}</h1>
+                            <div className="h-auto text-xl lg:font-bold font-semibold  bg-custom-voilet my-1 text-white flex justify-between items-center px-4 mx-4">
+                                <h1 className='font-Onest lg:text-xl text-base p-1'>{item.question}</h1>
                                 <FontAwesomeIcon className="cursor-pointer" icon={item.isOpen ? faMinus : faPlus} onClick={() => toggleContent(index)} />
                             </div>
                             <div className={`faq-answer ${item.isOpen ? 'open' : ''}`}>

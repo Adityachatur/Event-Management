@@ -16,7 +16,7 @@ const OurValue = () => {
                     <p className='text-lg md:text-xl lg:text-lg font-medium p-4 font-Onest'>
                         At our company, we always focus on being honest and clear. This helps us build trust and make sure our clients are happy every time we work with them</p>
 
-                    <div className='flex lg:space-x-16 space-x-5 lg:text-2xl text-lg p-4 font-bold font-Onest'>
+                    <div className='flex lg:space-x-16 space-x-3 lg:text-2xl text-base p-4 font-bold font-Onest'>
                         <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Honesty</h1></div>
                         <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Proficiency</h1></div>
                         <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-yellow-500 rounded-full text-white' /><h1>Expertise</h1></div>
