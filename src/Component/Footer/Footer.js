@@ -40,8 +40,8 @@ const Footer = () => {
                 <div className=' text-center  p-9'>
                     <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Contact Us</h1>
                     <ul className='text-lg space-y-2 cursor-pointer font-Onest'>
-                        <li>+91 9552314201</li>
-                        <li>Adityachatur7996@gmail.com</li>
+                        <a href="tel:+917028388484">+91 7028388484</a> <br />
+                        <a href="mailto:saurabhzende99@gmail.com">saurabhzende99@gmail.com</a>
                         <h1 className='flex space-x-4 justify-center lg:text-3xl text-xl'>
                             <Link to={"https://www.instagram.com/vighnaharta_events_?igsh=cm0wZndxdG5sNnF2"}><FontAwesomeIcon icon={faInstagram} className='color hover:text-yellow-400  transform duration-300' /></Link>
                             <FontAwesomeIcon icon={faFacebook} className='color' />
@@ -57,6 +57,7 @@ const Footer = () => {
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
+                        title='Office Location'
                     ></iframe>
                 </div>
             </div>

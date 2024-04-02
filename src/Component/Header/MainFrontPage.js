@@ -23,15 +23,15 @@ const MainFrontPage = () => {
                                     <button className='h-16 w-36 lg:my-5 my-1 lg:text-xl text-lg font-bold rounded-lg bg-black text-white transition duration-500 hover:bg-custom-Metallic-gold font-madimi-one-regular font-Orbitron'>Contact Us</button>
                                 </Link>
                                 <div className='flex items-center ml-3 lg:space-x-1'>
-                                    <FontAwesomeIcon icon={faDownload} className=' bg-red-500 lg:p-5 p-3  rounded-full' />
-                                    <h1 className='lg:text-3xl text-lg font-Orbitron text-custom-Metallic-gold font-semibold'> Request Brochure</h1>
+                                    <FontAwesomeIcon icon={faDownload} className=' bg-red-500 hover:bg-custom-Metallic-gold transform transition-all duration-300 cursor-pointer lg:p-5 p-3  text-2xl rounded-full' />
+                                    <h1 className='lg:text-3xl text-lg font-Orbitron text-custom-Metallic-gold font-semibold'> Download <br /> Brochure</h1>
                                 </div>
 
                             </div>
                         </div>
                         <div className='lg:w-6/12 w-full  max-w-screen-lg flex items-center lg:h-[90vh] h-auto lg:my-0 my-5 justify-center'>
                             <div className="flex justify-center">
-                                <img src={img1} alt="" className="w-[350px] lg:h-[400px] h-auto mx-auto rounded-full drop-shadow" />
+                                <img src={img1} alt="" className="w-[350px] lg:h-[450px] h-auto mx-auto rounded-full drop-shadow" />
                             </div>
 
                         </div>

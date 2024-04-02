@@ -222,21 +222,21 @@ const Contactus = () => {
                         <FontAwesomeIcon icon={faPhone} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
                             <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold font-Montserrat'>Mob. No</p>
-                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>+91 9552314201</p>
+                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>+91 7028388484</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
                         <FontAwesomeIcon icon={faEnvelope} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
                             <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold font-Montserrat'>For Enquiries</p>
-                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>adityachatur4@gmail.com</p>
+                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>saurabhzende99@gmail.com</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
                         <FontAwesomeIcon icon={faBriefcase} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
                             <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold font-Montserrat'>Careers </p>
-                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>adityachatur4@gmail.com</p>
+                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>Vighnahartaevent99@gmail.com</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
