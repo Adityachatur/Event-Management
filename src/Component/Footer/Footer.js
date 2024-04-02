@@ -31,7 +31,7 @@ const Footer = () => {
 
                 <div className=' text-center p-9'>
                     <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Visit Us</h1>
-                    <ul className='text-lg space-y-2 font-Onest'>
+                    <ul className='text-lg font-Onest'>
                         <li>Banglawasti Medankarwadi,</li>
                         <li>chakan,</li>
                         <li>Pune Pin-410501</li>

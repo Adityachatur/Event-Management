@@ -49,8 +49,8 @@ const Client_Review = () => {
                 <Slider {...settings}>
                     {cardData.map((item, index) => (
                         <div key={index} className="text-center rounded-lg p-4">
-                            <img src={item.imageUrl} alt={`Team Member ${index + 1}`} className="w-2/3 mx-auto mb-4 rounded-lg" style={{ maxHeight: '140px' }} />
-                            <p className="text-justify font-semibold text-black lg:p-7 lg:h-[150px]  mx-auto">{item.description}</p>
+                            <img src={item.imageUrl} alt={`Team Member ${index + 1}`} className="w-2/3 mx-auto mb-4 rounded-lg" style={{ maxHeight: '100px' }} />
+                            <p className="text-justify font-semibold text-black lg:p-7 lg:h-[200px]  mx-auto">{item.description}</p>
                             <h3 className="text-2xl font-semibold text-black text-right mr-4 mt-5 font-Roboto Slab">{item.name}</h3>
                             <div className="text-yellow-400 text-3xl text-right">
                                 {"★".repeat(item.stars)}
