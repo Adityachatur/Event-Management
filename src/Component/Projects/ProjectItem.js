@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 const ProjectItem = () => {
     return (
         <div>
-            <div className='text-center py-10 lg:text-6xl text-3xl font-bold text-custom-Metallic-gold font-Orbitron'>
-                <h1>Our Events</h1>
+            <div className='text-center py-10 lg:text-6xl text-3xl font-bold text-custom-navy-blue  uppercase font-poppins'>
+                <h1>Our  Special Events</h1>
             </div>
             <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-4 w-full mx-auto lg:w-11/12 font-Montserrat'
                 style={{ backgroundImage: `url(${bgimg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>

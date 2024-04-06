@@ -8,7 +8,8 @@ module.exports = {
         custom: {
           'voilet': "#1C2448",
           'skincolor': "#F8F3E5",
-          'Metallic-gold': '#FFD700',
+          'Metallic-gold': '#FFDF7A',
+          'navy-blue': '#003049',
         },
       },
       fontFamily: {
@@ -19,9 +20,13 @@ module.exports = {
         'Roboto Serif': ['Roboto Serif', 'serif'],
         'Roboto Slab': ['Roboto Slab', 'serif'],
         'Roboto': ['Roboto', 'sans'],
+        'Anek Devanagari': ['Anek Devanagari', 'sans-serif'],
+        'rozha': ['Rozha One', 'serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'Noto+Serif+Display': ['Noto Serif Display', 'serif'],
+      },
     },
-    },
-    
+
   },
   plugins: [],
 }

@@ -13,13 +13,11 @@ const Footer = () => {
         <div>
             <div className='text-white bg-black  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2 w-full mx-auto lg:w-full'>
                 <div className='  flex flex-col justify-center items-center'>
-                    <img src={logo} alt="" className='w-40' />
-                    <h1 className='text-lg'>Terms and Condition</h1>
-                    <h1 className='text-lg'>Policy</h1>
+                    <img src={logo} alt="" className='w-56' />
                 </div>
 
                 <div className='text-center  p-9'>
-                    <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Quick Links</h1>
+                    <h1 className='font-bold text-3xl mb-3 font-poppins'>Quick Links</h1>
                     <ul className='text-lg space-y-2 font-Onest'>
                         <li><Link to={'/'} className={`${location.pathname === "/" ? "text-custom-Metallic-gold" : ""}`}>Home</Link></li>
                         <li><Link to={'/about'} className={`${location.pathname === "/about" ? "text-custom-Metallic-gold" : ""}`}>About</Link></li>
@@ -30,15 +28,14 @@ const Footer = () => {
                 </div>
 
                 <div className=' text-center p-9'>
-                    <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Visit Us</h1>
+                    <h1 className='font-bold text-3xl mb-3 font-poppins'>Visit Us</h1>
                     <ul className='text-lg font-Onest'>
-                        <li>Banglawasti Medankarwadi,</li>
-                        <li>chakan,</li>
-                        <li>Pune Pin-410501</li>
+                        <li>Banglawasti, Medankarwadi,</li>
+                        <li>Chakan, Pune-410501</li>
                     </ul>
                 </div>
                 <div className=' text-center  p-9'>
-                    <h1 className='font-bold text-2xl mb-3 font-Orbitron'>Contact Us</h1>
+                    <h1 className='font-bold text-3xl mb-3 font-poppins'>Contact Us</h1>
                     <ul className='text-lg space-y-2 cursor-pointer font-Onest'>
                         <a href="tel:+917028388484">+91 7028388484</a> <br />
                         <a href="mailto:saurabhzende99@gmail.com">saurabhzende99@gmail.com</a>
@@ -48,6 +45,7 @@ const Footer = () => {
                             <FontAwesomeIcon icon={faTwitter} className='color' />
                             <FontAwesomeIcon icon={faYoutube} className='color' />
                         </h1>
+                        <h1 className='text-base text-gray-500'>Terms and Condition Applied</h1>
                     </ul>
                 </div>
                 <div className='  p-4'>

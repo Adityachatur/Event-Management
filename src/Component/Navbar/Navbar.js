@@ -24,7 +24,7 @@ const Navbar = () => {
         <div>
             {/* Navbar */}
             <nav className='w-full h-36 px-5 bg-gray-900  flex justify-between items-center'>
-                <div className='hidden lg:block text-white text-4xl font-Onest font-bold' style={{
+                <div className='hidden lg:block text-white text-4xl font-Montserrat font-bold' style={{
                     textShadow: "1px 1px 1px red",
                 }}>
                     <h1>Vighnaharta Event</h1>
@@ -39,12 +39,12 @@ const Navbar = () => {
 
                 {/* Company Logo (if any) */}
                 <div>
-                    <img src={logo} alt="Company Logo" className='lg:h-24 h-24 lg:w-[170px] w-[120px] mix-blend-screen lg:ml-40' />
+                    <img src={logo} alt="Company Logo" className='z-50 h-36 lg:h-[140px] p-3 lg:w-[150px] w-[150px] mix-blend-screen lg:ml-40' />
                 </div>
 
                 {/* Navbar Links */}
                 <div className='hidden list-none cursor-pointer lg:flex space-x-3 items-center'>
-                    <ul className='flex space-x-5 text-white text-2xl font-Anek Gurmukhi'>
+                    <ul className='flex space-x-5 text-white text-2xl font-Anek Devanagari'>
                         <li><Link to={'/'} onClick={handleLinkClick} className={`${location.pathname === "/" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}>Home</Link></li>
                         <li><Link to={'/about'} onClick={handleLinkClick} className={`${location.pathname === "/about" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}>About</Link></li>
                         <li><Link to={'/service'} onClick={handleLinkClick} className={`${location.pathname === "/service" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}>Service</Link></li>
@@ -63,7 +63,7 @@ const Navbar = () => {
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
                     </div>
-                    <ul className='flex flex-col w-full space-y-2 p-5 text-xl font-Roboto Serif'>
+                    <ul className='flex flex-col w-full space-y-2 p-5 text-xl font-Anek Devanagari'>
                         <li><Link to={'/'} onClick={handleLinkClick} className={`${location.pathname === "/" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}> <FontAwesomeIcon icon={faHouse} className='mr-4 items-center' />Home</Link></li>
                         <li><Link to={'/about'} onClick={handleLinkClick} className={`${location.pathname === "/about" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}><FontAwesomeIcon icon={faCircleInfo} className='mr-4 items-center' />About</Link></li>
                         <li><Link to={'/service'} onClick={handleLinkClick} className={`${location.pathname === "/service" ? "text-custom-Metallic-gold" : ""} animated-text hover:text-yellow-300`}> <FontAwesomeIcon icon={faWrench} className='mr-4 items-center' />Service</Link></li>

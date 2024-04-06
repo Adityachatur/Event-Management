@@ -45,20 +45,19 @@ function NoOfExp() {
 
 
     return (
-        <div className='w-full lg:h-40 h-auto py-10 space-y-5  flex justify-evenly items-center flex-wrap mx-auto font-Orbitron '>
-            <div className='w-48 text-center'>
-                <h1 className='text-4xl font-bold'>{event}+ </h1>
-                <p className='font-bold text-2xl font-madimi-one-regular'>Events</p>
+        <div className='w-full lg:h-44 h-auto py-10 space-y-5  flex justify-evenly items-center flex-wrap mx-auto font-Orbitron '>
+            <div className='w-56 text-center'>
+                <h1 className='text-5xl font-bold'>{event}+ </h1>
+                <p className='font-bold font-poppins text-3xl'>Events</p>
             </div>
-            <div className='w-48 text-center'>
-                <h1 className='text-4xl font-bold'>{rating} <FontAwesomeIcon icon={faStar} className='text-3xl text-yellow-300 py-1 pr-2' />  </h1>
-                <p className='font-bold text-2xl'>Rating</p>
+            <div className='w-56 text-center'>
+                <h1 className='text-5xl font-bold'>{rating} <FontAwesomeIcon icon={faStar} className='text-3xl text-yellow-300 py-1 pr-2' />  </h1>
+                <p className='font-bold font-poppins text-3xl'>Rating</p>
             </div>
-            <div className='w-48 text-center'>
-                <h1 className='text-4xl font-bold'>{exp} Years+</h1>
-                <p className='font-bold text-2xl'>Experience</p>
+            <div className='w-56 text-center'>
+                <h1 className='text-5xl font-bold'>{exp} Years+</h1>
+                <p className='font-bold font-poppins text-3xl'>Experience</p>
             </div>
-            <hr className='h-[2px] bg-gray-300' />
         </div>
     );
 }
