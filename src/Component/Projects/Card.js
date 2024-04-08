@@ -3,7 +3,7 @@ import React from 'react';
 const Card = (props) => {
     return (
         <div>
-            <div className=' relative lg:w-[320] lg:mx-0 mx-1 border-2 h-[270px] rounded-3xl overflow-hidden  transition-transform duration-300 transform hover:-translate-y-3'>
+            <div className=' relative lg:w-[320] lg:mx-0 mx-1 border-2 h-[270px] rounded-3xl overflow-hidden  transition-transform duration-300 transform hover:-translate-y-3' data-aos="zoom-in" data-aos-duration="3000">
                 <img
                     src={props.img}
                     alt=""

@@ -32,6 +32,7 @@ const Gallery = () => {
               src={gallery1}
               alt="gallery-photo"
               onClick={() => openModal(gallery1)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
           <div>
@@ -40,14 +41,17 @@ const Gallery = () => {
               src={shivimg}
               alt="gallery-photo"
               onClick={() => openModal(shivimg)}
+              data-aos="zoom-in" data-aos-duration="1500"
+
             />
           </div>
           <div>
             <img
-              className="h-[250px] lg:h-[400px] lg:w-full max-w-full rounded-lg object-cover object-center gallery-img"
+              className="h-[250px] lg:h-[500px] lg:w-full max-w-full rounded-lg object-cover object-center gallery-img"
               src={gallery2}
               alt="gallery-photo"
               onClick={() => openModal(gallery2)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
         </div>
@@ -58,6 +62,7 @@ const Gallery = () => {
               src={gallery5}
               alt="gallery-photo"
               onClick={() => openModal(gallery5)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
           <div>
@@ -66,6 +71,7 @@ const Gallery = () => {
               src={gallery3}
               alt="gallery-photo"
               onClick={() => openModal(gallery3)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
           <div>
@@ -74,6 +80,7 @@ const Gallery = () => {
               src={gallery4}
               alt="gallery-photo"
               onClick={() => openModal(gallery4)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
         </div>
@@ -84,6 +91,7 @@ const Gallery = () => {
               src={gallery6}
               alt="gallery-photo"
               onClick={() => openModal(gallery6)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
           <div>
@@ -92,6 +100,7 @@ const Gallery = () => {
               src={gallery7}
               alt="gallery-photo"
               onClick={() => openModal(gallery7)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
           <div>
@@ -100,6 +109,7 @@ const Gallery = () => {
               src={gallery8}
               alt="gallery-photo"
               onClick={() => openModal(gallery8)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
         </div>
@@ -110,14 +120,16 @@ const Gallery = () => {
               src={gallery9}
               alt="gallery-photo"
               onClick={() => openModal(gallery9)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
           <div>
             <img
-              className="h-[250px] md:h-[185px] lg:h-[400px] max-w-full rounded-lg object-cover object-center gallery-img"
+              className="h-[250px] md:h-[185px] lg:h-[500px] max-w-full rounded-lg object-cover object-center gallery-img"
               src={gallery10}
               alt="gallery-photo"
               onClick={() => openModal(gallery10)}
+              data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
           <div>
@@ -126,6 +138,7 @@ const Gallery = () => {
               src={gallery12}
               alt="gallery-photo"
               onClick={() => openModal(gallery12)}
+              data-aos="zoom-in" data-aos-duration="500"
             />
           </div>
         </div>

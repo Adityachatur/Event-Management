@@ -42,13 +42,17 @@ const Client_Review = () => {
     return (
         <div className='my-16 lg:mx-12 client-review'>
             <div className="lg:pt-10 pt-5">
-                <h1 className='text-center lg:text-6xl text-3xl font-bold m-10  font-poppins uppercase'>Client Reviews</h1>
+                <h1 className='text-center lg:text-6xl text-3xl font-bold m-10  font-poppins uppercase' data-aos="fade-up"
+                    data-aos-offset="100"
+                    data-aos-duration="1000">Client Reviews</h1>
             </div>
 
             <div className='w-9/12  mx-auto'>
                 <Slider {...settings}>
                     {cardData.map((item, index) => (
-                        <div key={index} className="text-center rounded-lg p-4">
+                        <div key={index} className="text-center rounded-lg p-4"data-aos="zoom-in"
+                        data-aos-offset="100"
+                        data-aos-duration="2000">
                             <img src={item.imageUrl} alt={`Team Member ${index + 1}`} className="w-2/3 mx-auto mb-4 rounded-lg" style={{ maxHeight: '100px' }} />
                             <p className="text-justify font-poppins font-semibold text-black lg:p-7 lg:h-[200px]  mx-auto">{item.description}</p>
                             <h3 className="text-2xl font-semibold text-black text-right mr-4 mt-5 font-Montserrat">{item.name}</h3>

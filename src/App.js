@@ -1,5 +1,6 @@
 
 import { Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css';
 import Hero from './Component/Header/Hero';
 import Navbar from './Component/Navbar/Navbar';
@@ -13,9 +14,15 @@ import Service from './Component/Service/Service';
 import Projects from './Component/Projects/Projects';
 import Contact from './Component/Contact/Contact';
 import WhatsAppButton from './Component/WhatsAppButton';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+    });
+  }, []);
+
   return (
 
     <>

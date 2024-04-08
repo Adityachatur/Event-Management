@@ -109,12 +109,12 @@ const Contactus = () => {
             <div className='w-full py-10 bg-gray-800 flex flex-wrap'>
 
                 <div className='w-full md:w-1/2 bg-gray-800 flex flex-col justify-center md:justify-start md:pl-10'>
-                    <h1 className='text-left p-5 text-3xl text-white font-bold lg:pl-28 font-Orbitron'>GET IN TOUCH</h1>
+                    <h1 className='text-left p-5 text-3xl text-white font-bold lg:pl-28 font-Montserrat'>GET IN TOUCH</h1>
                     <div className='flex flex-col justify-end mx-5 lg:pl-28'>
 
                         <form onSubmit={handleSubmit}>
                             <div className='text-white'>
-                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-Montserrat'>Enter Name</label> <br />
+                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-poppins'>Enter Name</label> <br />
                                 <input
                                     type="text"
                                     placeholder="Name"
@@ -132,7 +132,7 @@ const Contactus = () => {
                             <br />
 
                             <div className='text-white'>
-                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-Montserrat'>Enter Email</label> <br />
+                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-poppins'>Enter Email</label> <br />
                                 <input
                                     type="text"
                                     placeholder="Email"
@@ -150,7 +150,7 @@ const Contactus = () => {
                             <br />
                             <br />
                             <div className='text-white'>
-                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-Montserrat'>Enter Phone</label> <br />
+                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-poppins'>Enter Phone</label> <br />
                                 <input
                                     type="text"
                                     placeholder="Phone"
@@ -168,7 +168,7 @@ const Contactus = () => {
                             <br />
                             <br />
                             <div className='text-white'>
-                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-Montserrat'>Select Event</label> <br />
+                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-poppins'>Select Event</label> <br />
                                 <select
                                     className="w-full md:w-10/12 h-10 bg-gray-800 border-b-2 text-white lg:text-lg text-md placeholder-white focus:border-black input-effect"
                                     name="event"
@@ -188,7 +188,7 @@ const Contactus = () => {
                             </div>
                             <br /><br />
                             <div className='text-white'>
-                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-Montserrat'>Enter Comment</label> <br />
+                                <label htmlFor="" className='lg:text-2xl text-xl font-bold font-poppins'>Enter Comment</label> <br />
                                 <textarea
                                     rows="4"
                                     cols="50"
@@ -221,29 +221,29 @@ const Contactus = () => {
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
                         <FontAwesomeIcon icon={faPhone} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold font-Montserrat'>Mob. No</p>
-                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>+91 7028388484</p>
+                            <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>Mob. No</p>
+                            <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>+91 7028388484</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
                         <FontAwesomeIcon icon={faEnvelope} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold font-Montserrat'>For Enquiries</p>
-                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>saurabhzende99@gmail.com</p>
+                            <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>For Enquiries</p>
+                            <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>saurabhzende99@gmail.com</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
                         <FontAwesomeIcon icon={faBriefcase} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold font-Montserrat'>Careers </p>
-                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>Vighnahartaevent99@gmail.com</p>
+                            <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>Careers </p>
+                            <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>Vighnahartaevent99@gmail.com</p>
                         </div>
                     </div>
                     <div className='pt-10 pl-5 flex items-center  space-x-5'>
                         <FontAwesomeIcon icon={faHome} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
-                            <p className='text-custom-Metallic-gold lg:text-xl text-lg font-semibold font-Montserrat'>Address </p>
-                            <p className='lg:text-2xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>Banglawasti Medankarwadi Chakan<br /> dist.Pune  pin-410501</p>
+                            <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>Address </p>
+                            <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-Roboto Slab'>Banglawasti Medankarwadi Chakan<br /> dist.Pune  pin-410501</p>
                         </div>
                     </div>
                     <div>
