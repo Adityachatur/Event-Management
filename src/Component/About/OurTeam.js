@@ -7,9 +7,9 @@ const OurTeam = () => {
             <div className=" w-full lg:h-[800px] h-auto team-lead">
                 <div className='text-center'>
                     <div className='text-center flex justify-center w-full '>
-                        <img src={owenerimg} alt="" className='lg:w-[350px] w-full rounded-xl h-[450px] m-3 p-2 ' />
+                        <img src={owenerimg} alt="" className='lg:w-[350px] w-full rounded-xl h-[450px] m-3 p-2 ' data-aos="fade-down" data-aos-duration="2000" />
                     </div>
-                    <h1 className='lg:text-3xl text-xl p-2 font-bold font-Montserrat '>Saurabh Zende</h1>
+                    <h1 className='lg:text-3xl text-xl p-2 font-bold font-Montserrat uppercase ' data-aos="zoom-in" data-aos-duration="2500">Saurabh Zende</h1>
                     <h1 className='text-xl font-semibold font-poppins'>Owner of Company </h1>
                     <h1 className='lg:text-xl text-base font-semibold font-poppins lg:p-4 p-2 lg:w-9/12 md:w-7/12 w-full mx-auto'>Welcome to <h1 className='lg:text-3xl font-bold font-Montserrat   pb-3 text-orange-500 text-xl'>Vighnaharta Event Management Company</h1> We specialize in creating unforgettable experiences for weddings, corporate events, birthdays and more. With our dedicated team of professionals, we handle every aspect of event planning with precision and creativity. From stunning decor to seamless logistics and great entertainment, we ensure your event is a memorable success. Let us bring your vision to life and create lasting memories for you and your guests</h1>
                 </div>

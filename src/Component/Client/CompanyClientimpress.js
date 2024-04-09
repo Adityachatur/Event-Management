@@ -11,7 +11,9 @@ const CompanyClientimpress = () => {
       <div className="overflow-hidden h-[250px] w-full">
         <div className='text-center mt-10'>
           <h1 className='text-xl md:text-2xl lg:text-xl font-semibold px-4 pb-2 text-orange-400 font-Montserrat'> - Our Client</h1>
-          <h1 className='text-2xl md:text-3xl lg:text-5xl px-4 font-bold font-Montserrat'>Clients We Have Impressed</h1>
+          <h1 className='text-2xl md:text-3xl lg:text-5xl px-4 font-bold font-Montserrat' data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000">Clients We Have Impressed</h1>
         </div>
         <div className=" p-4 h-32">
           <marquee behavior="scroll" scrollamount="10" direction="left">

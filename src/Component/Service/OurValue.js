@@ -7,10 +7,10 @@ const OurValue = () => {
     return (
         <div>
             <div className='lg:w-11/12 mx-auto w-full flex flex-wrap lg:my-10 my-1 '>
-                <div className='w-full md:w-6/12'>
+                <div className='w-full md:w-6/12' data-aos="zoom-in" data-aos-duration="2000">
                     <img src={img} alt="" className='lg:h-[400px] md:h-auto lg:w-[650px] w-full  mx-auto' />
                 </div>
-                <div className='w-full md:w-6/12 '>
+                <div className='w-full md:w-6/12 ' data-aos="zoom-in" data-aos-duration="3000">
                     <h1 className='text-xl md:text-2xl lg:text-xl font-semibold p-4 text-orange-400 font-Montserrat '> - Our importance</h1>
                     <h1 className='text-2xl md:text-3xl lg:text-5xl p-4 font-bold font-Montserrat text-custom-navy-blue'>Our goal is to establish genuine connections among people through the experiences of our events</h1>
                     <p className='text-lg md:text-xl lg:text-lg font-medium p-4 font-poppins'>
@@ -22,7 +22,7 @@ const OurValue = () => {
                         <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faCheck} className='text-base lg:p-2 p-1 bg-custom-Metallic-gold text-custom-navy-blue rounded-full' /><h1>Expertise</h1></div>
                     </div>
 
-                    <Link to={'/projects'}> <button className='text-center border-2 px-2 py-4 lg:text-2xl flex  text-lg font-bold  m-4  bg-custom-Metallic-gold text-custom-navy-blue rounded-md  hover:bg-custom-navy-blue hover:text-custom-Metallic-gold font-poppins transition-all transform duration-300'>View Projects</button></Link>
+                    <Link to={'/projects'}> <button className='text-center border-2 px-2 py-4 lg:text-2xl flex  text-lg font-bold  m-4  bg-custom-Metallic-gold text-custom-navy-blue rounded-md  hover:bg-custom-navy-blue hover:text-custom-Metallic-gold font-poppins transition transform duration-5000' data-aos="zoom-in-down" data-aos-duration="2200">View Projects</button></Link>
                 </div>
             </div>
         </div>

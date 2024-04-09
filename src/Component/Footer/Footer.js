@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
             <div className='text-white bg-black  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2 w-full mx-auto lg:w-full'>
                 <div className='  flex flex-col justify-center items-center'>
-                    <img src={logo} alt="" className='w-56' />
+                    <img src={logo} alt="" className='w-56' data-aos="zoom-in" data-aos-duration="2200" />
                 </div>
 
                 <div className='text-center  p-9'>

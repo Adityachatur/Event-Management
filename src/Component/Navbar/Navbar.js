@@ -39,7 +39,7 @@ const Navbar = () => {
 
                 {/* Company Logo (if any) */}
                 <div>
-                    <img src={logo} alt="Company Logo" className='z-50 h-36 lg:h-[140px] p-3 lg:w-[150px] w-[150px] mix-blend-screen lg:ml-40' />
+                    <img src={logo} alt="Company Logo" className='z-50 h-36 lg:h-[140px] p-3 lg:w-[150px] w-[150px] mix-blend-screen lg:ml-40' data-aos="zoom-out" data-aos-duration="2500" />
                 </div>
 
                 {/* Navbar Links */}
