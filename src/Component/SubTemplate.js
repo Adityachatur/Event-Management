@@ -31,7 +31,7 @@ const SubTemplate = (props) => {
     return (
         <div className="relative" style={{ width: '100%', height: '350px' }}>
             {loading ? (
-                <div className="absolute flex items-center justify-center w-full h-full">
+                <div className="absolute flex items-center justify-center w-full h-full z-50">
                     <InfinitySpin height={40} color='black' />
                 </div>
             ) : (
@@ -40,7 +40,7 @@ const SubTemplate = (props) => {
             )}
             <div className="flex items-center justify-center bg-cover bg-center h-full relative z-10">
                 <div className="absolute inset-0 bg-black opacity-40 "></div>
-                <div className="text-center text-white z-30">
+                <div className="text-center text-white ">
                     <h1 className="lg:text-5xl md:text-2xl text-xl uppercase font-bold mb-4 font-poppins">
                         {props.title}
                     </h1>

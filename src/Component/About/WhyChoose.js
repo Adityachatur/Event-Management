@@ -37,7 +37,7 @@ const WhyChoose = () => {
                         <div className='grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto my-5 sm:mt-10'>
 
                             <div className=' flex space-x-4 lg:p-4 sm:p-6 p-4' data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-delay="500">
+                                data-aos-delay="100">
                                 <FontAwesomeIcon icon={faCheck} className='p-3 text-xl lg:text-3xl text- font-bold text-custom-navy-blue border-2 border-custom-navy-blue bg-custom-Metallic-gold rounded-full' />
                                 <div className='space-y-2'>
                                     <h1 className='text-lg sm:text-xl font-bold uppercase font-Montserrat text-custom-navy-blue'>Strategic Planning</h1>
@@ -46,7 +46,7 @@ const WhyChoose = () => {
                             </div>
 
                             <div className=' flex space-x-4 lg:p-4 sm:p-6 p-4' data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-delay="500">
+                                data-aos-delay="100">
                                 <FontAwesomeIcon icon={faCheck} className='p-3 text-xl lg:text-3xl font-bold text-custom-navy-blue border-2 border-custom-navy-blue bg-custom-Metallic-gold rounded-full' />
                                 <div className='space-y-2'>
                                     <h1 className='text-lg sm:text-xl font-bold uppercase font-Montserrat text-custom-navy-blue'>Budget Management</h1>
@@ -56,7 +56,7 @@ const WhyChoose = () => {
 
 
                             <div className=' flex space-x-4 lg:p-4 sm:p-6 p-4' data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-delay="500">
+                                data-aos-delay="100">
                                 <FontAwesomeIcon icon={faCheck} className='p-3 text-xl lg:text-3xl font-bold text-custom-navy-blue border-2 border-custom-navy-blue bg-custom-Metallic-gold rounded-full' />
                                 <div className='space-y-2'>
                                     <h1 className='text-lg sm:text-xl font-bold uppercase font-Montserrat text-custom-navy-blue'>Guest Experience Enhancement</h1>
@@ -65,7 +65,7 @@ const WhyChoose = () => {
                             </div>
 
                             <div className='flex space-x-4 lg:p-4 sm:p-6 p-4' data-aos="zoom-in" data-aos-duration="1000"
-                                data-aos-delay="500">
+                                data-aos-delay="100">
                                 <FontAwesomeIcon icon={faCheck} className='p-3 text-xl lg:text-3xl font-bold text-custom-navy-blue border-2 border-custom-navy-blue bg-custom-Metallic-gold rounded-full' />
                                 <div className='space-y-2'>
                                     <h1 className='text-lg sm:text-xl font-bold uppercase font-Montserrat text-custom-navy-blue'>Flexibility and Adaptability</h1>
