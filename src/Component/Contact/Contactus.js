@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import contactvideo from '../images/Aboutvideo.mp4';
 
@@ -207,7 +207,7 @@ const Contactus = () => {
                             <br />
                             <button
                                 className="h-14 border-2 rounded-lg text-white lg:text-2xl text-xl font-bold w-40 hover:text-black hover:bg-custom-Metallic-gold font-Orbitron transition-transform duration-300 transform-gpu hover:scale-105"
-                                type='submit' data-aos="zoom-in-down" data-aos-duration="2200"
+                                type='submit' data-aos="zoom-in-down" data-aos-duration="1000"
                             >
                                 Submit
                             </button>
@@ -218,28 +218,22 @@ const Contactus = () => {
 
                 <div className='w-full md:w-1/2 gird grid-cols-1 '>
 
-                    <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="2200">
+                    <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="1000">
                         <FontAwesomeIcon icon={faPhone} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
                             <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>Mob. No</p>
                             <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>+91 7028388484</p>
                         </div>
                     </div>
-                    <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="2200">
+                    <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="1000">
                         <FontAwesomeIcon icon={faEnvelope} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
                             <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>For Enquiries</p>
                             <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>saurabhzende99@gmail.com</p>
                         </div>
                     </div>
-                    {/* <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="2200">
-                        <FontAwesomeIcon icon={faBriefcase} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
-                        <div>
-                            <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>Careers </p>
-                            <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>Vighnahartaevent99@gmail.com</p>
-                        </div>
-                    </div> */}
-                    <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="2200">
+
+                    <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="1000">
                         <FontAwesomeIcon icon={faHome} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
                             <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>Address </p>

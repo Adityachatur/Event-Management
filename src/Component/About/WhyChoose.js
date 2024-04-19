@@ -19,7 +19,7 @@ const WhyChoose = () => {
 
     return (
         <div>
-            <div className='lg:mt-10 mt-0 lg:my-20 lg:w-11/12 w-full mx-auto h-[400px]' data-aos="zoom-in" data-aos-duration="2500">
+            <div className='lg:mt-10 mt-0 lg:my-20 lg:w-11/12 w-full mx-auto' data-aos="zoom-in" data-aos-duration="2500">
                 <div className='flex flex-col md:flex-row mx-auto'>
 
                     <div className='w-full md:w-5/12 flex justify-center md:justify-end relative'>

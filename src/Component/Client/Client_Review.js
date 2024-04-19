@@ -42,7 +42,7 @@ const Client_Review = () => {
     return (
         <div className='my-16 lg:mx-12 client-review'>
             <div className="lg:pt-10 pt-5">
-                <h1 className='text-center lg:text-6xl text-3xl font-bold m-10  font-poppins uppercase' data-aos="fade-up"
+                <h1 className='text-center lg:text-5xl text-3xl font-bold m-10  font-poppins uppercase' data-aos="fade-up"
                     data-aos-offset="100"
                     data-aos-duration="1000">Client Reviews</h1>
             </div>
@@ -54,7 +54,7 @@ const Client_Review = () => {
                             data-aos-offset="100"
                             data-aos-duration="2000">
                             <img src={item.imageUrl} alt={`Team Member ${index + 1}`} className="w-2/3 mx-auto mb-4 rounded-lg" style={{ maxHeight: '100px' }} />
-                            <p className="text-justify font-poppins text-base font-semibold text-black lg:p-7 lg:h-[200px] h-auto  mx-auto">{item.description}</p>
+                            <p className="text-justify font-poppins text-base font-semibold text-black lg:p-7  h-auto  mx-auto">{item.description}</p>
                             <h3 className="lg:text-2xl text-lg font-semibold text-black text-right mr-4 mt-5 font-Montserrat">{item.name}</h3>
                             <div className="text-yellow-400 text-3xl text-right">
                                 {"★".repeat(item.stars)}

@@ -21,7 +21,7 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat' >Research Planning</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat' >Research Planning</h1>
                         <FontAwesomeIcon icon={faSearchengin} className=' bg-custom-voilet text-white p-2 rounded-full' style={{ width: '30px', height: '30px' }} />
                     </div>
                     <div></div>
@@ -29,13 +29,13 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Talent Booking</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Talent Booking</h1>
                         <EventAvailableIcon className='bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Event Management</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Event Management</h1>
                         <Groups2Icon className='bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div></div>
@@ -43,13 +43,13 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Entertainment</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Entertainment</h1>
                         < MusicNoteIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Printing</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Printing</h1>
                         <LocalPrintshopIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div></div>
@@ -57,7 +57,7 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Venue Finding</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Venue Finding</h1>
                         <PlaceIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Event Production</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Event Production</h1>
                         <DuoIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div></div>
@@ -80,13 +80,13 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3'>Digital Media</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3'>Digital Media</h1>
                         <CameraAltIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>3D Visuals</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>3D Visuals</h1>
                         <ViewInArIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div></div>
@@ -94,14 +94,14 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>
                             Logistics</h1>
                         <LocalShippingIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Decoration</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Decoration</h1>
                         <FormatPaintIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                     <div></div>
@@ -109,7 +109,7 @@ const ServiceTypes = () => {
                     <div className='text-black bg-gray-50 border-2  hover:animate-zoom-out flex items-center justify-between px-1 lg:h-auto h-20 rounded-lg hover:shadow-2xl' data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <h1 className='lg:text-2xl text-base font-bold  lg:px-3 font-Montserrat'>Catering</h1>
+                        <h1 className='lg:text-xl text-base font-bold  lg:px-3 font-Montserrat'>Catering</h1>
                         <LunchDiningIcon className='text-2xl bg-custom-voilet text-white p-2 rounded-full' style={{ width: '40px', height: '40px' }} />
                     </div>
                 </div>

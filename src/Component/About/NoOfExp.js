@@ -12,7 +12,7 @@ function NoOfExp() {
             if (event < 1000) {
                 setEvent(event + 1);
             }
-        }, 1); // Change the interval as needed
+        }, 1);
 
         return () => clearInterval(interval);
     }, [event]);

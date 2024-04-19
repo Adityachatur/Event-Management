@@ -12,8 +12,8 @@ const OurValue = () => {
                 </div>
                 <div className='w-full md:w-6/12 ' data-aos="zoom-in" data-aos-duration="3000">
                     <h1 className='text-xl md:text-2xl lg:text-xl font-semibold p-4 text-orange-400 font-Montserrat '> - Our importance</h1>
-                    <h1 className='text-2xl md:text-3xl lg:text-5xl p-4 font-bold font-Montserrat text-custom-navy-blue'>Our goal is to establish genuine connections among people through the experiences of our events</h1>
-                    <p className='text-lg md:text-xl lg:text-lg font-medium p-4 font-poppins'>
+                    <h1 className='text-2xl md:text-3xl lg:text-4xl p-3 font-bold font-Montserrat text-custom-navy-blue'>Our goal is to establish genuine connections among people through the experiences of our events</h1>
+                    <p className='text-normal font-medium p-4 font-poppins'>
                         At our company, we always focus on being honest and clear. This helps us build trust and make sure our clients are happy every time we work with them</p>
 
                     <div className='flex lg:space-x-16 space-x-3 lg:text-2xl text-base p-4 font-bold font-poppins'>

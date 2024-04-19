@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/company-logo.jpg'
 import owenerimg from '../images/Owner.jpg'
 const OurTeam = () => {
     return (
@@ -15,6 +14,7 @@ const OurTeam = () => {
                 </div>
             </div>
 
+            {/* Worker details  */}
             {/* <div className='grid gap-3 lg:mx-auto lg:w-11/12 w-full lg:grid-cols-4 md:grid-cols-2 grid-cols-2 px-1'>
                 <div className=' p-2 mx-auto bg-custom-skincolor rounded-lg text-center'>
                     <img src={logo} className='w-full rounded-lg mx-auto' alt="" />
