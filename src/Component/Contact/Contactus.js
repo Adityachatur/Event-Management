@@ -232,13 +232,13 @@ const Contactus = () => {
                             <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>saurabhzende99@gmail.com</p>
                         </div>
                     </div>
-                    <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="2200">
+                    {/* <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="2200">
                         <FontAwesomeIcon icon={faBriefcase} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>
                             <p className='text-custom-Metallic-gold  text-lg font-semibold font-Montserrat'>Careers </p>
                             <p className='lg:text-xl text-md font-bold cursor-pointer text-white font-poppins'>Vighnahartaevent99@gmail.com</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className='pt-10 pl-5 flex items-center  space-x-5' data-aos="zoom-in-down" data-aos-duration="2200">
                         <FontAwesomeIcon icon={faHome} className='text-black lg:text-4xl text-2xl bg-custom-Metallic-gold p-3 rounded-full' />
                         <div>

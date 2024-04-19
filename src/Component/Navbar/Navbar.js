@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <div>
             {/* Navbar */}
-            <nav className='w-full h-36 px-5 bg-gray-900  flex justify-between items-center'>
+            <nav className='w-full lg:h-36 h-28 px-5 bg-gray-900  flex justify-between items-center'>
                 <div className='hidden lg:block text-white text-4xl font-Montserrat font-bold' style={{
                     textShadow: "1px 1px 1px red",
                 }}>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
                 {/* Company Logo (if any) */}
                 <div>
-                    <img src={logo} alt="Company Logo" className='z-50 h-36 lg:h-[140px] p-3 lg:w-[150px] w-[150px] mix-blend-screen lg:ml-40' data-aos="zoom-out" data-aos-duration="2500" />
+                    <img src={logo} alt="Company Logo" className='z-50 h-30 lg:h-[140px] p-3 lg:w-[150px] w-[100px] mix-blend-screen lg:ml-40' data-aos="zoom-out" data-aos-duration="2500" />
                 </div>
 
                 {/* Navbar Links */}
