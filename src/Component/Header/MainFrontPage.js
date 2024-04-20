@@ -30,16 +30,16 @@ const MainFrontPage = () => {
                                 <div className='flex items-center ml-3 lg:space-x-1'>
                                     <a href={brochureUrl} download>
                                         <FontAwesomeIcon icon={faDownload} className='bg-custom-Metallic-gold hover:bg-custom-navy-blue transform 
-                                        hover:text-custom-Metallic-gold transition-all duration-300 cursor-pointer lg:p-5 p-3 text-2xl rounded-full'data-aos="zoom-in-down" data-aos-duration="3000" />
+                                        hover:text-custom-Metallic-gold transition-all duration-300 cursor-pointer lg:p-5 p-3 text-2xl rounded-full'data-aos="zoom-in-down" data-aos-duration="2000" />
                                     </a>
-                                    <h1 className='lg:text-3xl text-lg font-poppins text-custom-Metallic-gold font-semibold' data-aos="zoom-in-down" data-aos-duration="3000"> Download <br /> Brochure</h1>
+                                    <h1 className='lg:text-3xl text-lg font-poppins text-custom-Metallic-gold font-semibold' data-aos="zoom-in-down" data-aos-duration="2000"> Download <br /> Brochure</h1>
                                 </div>
 
                             </div>
                         </div>
                         <div className='lg:w-6/12 w-full  max-w-screen-lg flex items-center  h-auto lg:my-0 my-5 justify-center'>
                             <div className="flex justify-center">
-                                <img src={img1} alt="" className="w-[480px] lg:h-[480px] h-auto mx-auto rounded-full drop-shadow" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="500" />
+                                <img src={img1} alt="" className="w-[480px] lg:h-[480px] h-auto mx-auto rounded-full drop-shadow" data-aos="zoom-in" data-aos-duration="2000" />
                             </div>
                         </div>
                     </div>
